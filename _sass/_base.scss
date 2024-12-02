@@ -157,6 +157,9 @@ ul.task-list input[type="checkbox"] {
 // Card
 
 .card {
+
+  outline-style: dashed;
+  outline-color: var(--global-highlight-color);
   background-color: var(--global-card-bg-color);
 
   .card-img {
@@ -170,6 +173,10 @@ ul.task-list input[type="checkbox"] {
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+
+    .card-text {
+      color: var(--global-card-text-color);
+    }
   }
 }
 
