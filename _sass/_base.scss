@@ -5,8 +5,6 @@
 // Typography
 
 p,
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -18,6 +16,14 @@ span,
 strong {
   color: var(--global-text-color);
 }
+
+h1 {
+  color: var(--global-theme-color);
+}
+h2 {
+  color: var(--global-hover-color);
+}
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -214,7 +220,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 60%;
 
     .address {
       p {
@@ -238,6 +244,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.z-depth-1 {
+  //box-shadow: 10px 10px 5px var(--global-theme-color) !important;
+  box-shadow:
+    0 5px 20px 0 var(--global-theme-color),
+    0 5px 20px 0 var(--global-theme-color)
+    !important;
+}
 // Navbar customization
 
 .navbar {
@@ -380,7 +393,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.4rem;
 
     a {
       i::before {
