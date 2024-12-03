@@ -14,7 +14,7 @@
   --global-footer-text-color: #{$funkey_lightgrey};
   --global-footer-link-color: #{$funkey_grey};
   --global-distill-app-color: #{$funkey_grey};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-divider-color: rgba(#{red($funkey_color_2)}, #{green($funkey_color_2)}, #{blue($funkey_color_2)}, 0.4);
   --global-card-bg-color: #{$funkey_dark};
   --global-card-text-color: #{$funkey_bright};
   --global-highlight-color: #{$funkey_color_2};

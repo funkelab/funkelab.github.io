@@ -245,11 +245,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .z-depth-1 {
-  //box-shadow: 10px 10px 5px var(--global-theme-color) !important;
-  box-shadow:
-    0 5px 20px 0 var(--global-theme-color),
-    0 5px 20px 0 var(--global-theme-color)
-    !important;
+  box-shadow: 0px 0px 10px 2px var(--global-theme-color) !important;
 }
 // Navbar customization
 
@@ -720,6 +716,10 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        a {
+          color: var(--global-text-color);
+          text-decoration: none;
+        }
       }
 
       .author {

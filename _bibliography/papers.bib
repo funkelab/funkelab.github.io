@@ -1,45 +1,62 @@
-@misc{adjavonQuantitativeAttributionsCounterfactuals2024,
+@misc{adjavon_2024_quantitative,
   title = {Quantitative {{Attributions}} with {{Counterfactuals}}},
   author = {Adjavon, Diane-Yayra and Eckstein, Nils and Bates, Alexander S. and Jefferis, Gregory S. X. E. and Funke, Jan},
   year = {2024},
   month = dec,
-  primaryclass = {New Results},
-  pages = {2024.11.26.625505},
   publisher = {bioRxiv},
   doi = {10.1101/2024.11.26.625505},
+  url = {https://www.biorxiv.org/content/10.1101/2024.11.26.625505v1},
   abstract = {We address the problem of explaining the decision process of deep neural network classifiers on images, which is of particular importance in biomedical datasets where class-relevant differences are not always obvious to a human observer. Our proposed solution, termed quantitative attribution with counterfactuals (QuAC), generates visual explanations that highlight class-relevant differences by attributing the classifier decision to changes of visual features in small parts of an image. To that end, we train a separate network to generate counterfactual images (i.e., to translate images between different classes). We then find the most important differences using novel discriminative attribution methods. Crucially, QuAC allows scoring of the attribution and thus provides a measure to quantify and compare the fidelity of a visual explanation. We demonstrate the suitability and limitations of QuAC on two datasets: (1) a synthetic dataset with known class differences, representing different levels of protein aggregation in cells and (2) an electron microscopy dataset of D. melanogaster synapses with different neurotransmitters, where QuAC reveals so far unknown visual differences. We further discuss how QuAC can be used to interrogate mispredictions to shed light on unexpected inter-class similarities and intra-class differences.},
-  archiveprefix = {bioRxiv},
-  chapter = {New Results},
-  copyright = {{\copyright} 2024, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+  biorxiv = {10.1101/2024.11.26.625505v1},
+  blog = {quac},
+  code = {https://github.com/funkelab/quac},
+  preview = {quac},
+  selected = {true},
+  website = {https://funkelab.github.io/quac}
 }
 
-@misc{bakerNeuralNetworkOrganization2021,
+@article{baker_2021_neural,
   title = {Neural {{Network Organization}} for {{Courtship Song Feature Detection}} in {{Drosophila}}},
   author = {Baker, Christa A. and McKellar, Claire and Nern, Aljoscha and Dorkenwald, Sven and Pacheco, Diego A. and Pang, Rich and Eckstein, Nils and Funke, Jan and Dickson, Barry J. and Murthy, Mala},
   year = {2021},
   month = feb,
-  pages = {2020.10.08.332148},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2020.10.08.332148},
+  url = {https://www.biorxiv.org/content/10.1101/2020.10.08.332148v2},
   abstract = {Animals communicate using sounds in a wide range of contexts, and auditory systems must encode behaviorally relevant acoustic features to drive appropriate reactions. How feature detection emerges along auditory pathways has been difficult to solve due to challenges in mapping the underlying circuits and characterizing responses to behaviorally relevant features. Here, we study auditory activity in the Drosophila melanogaster brain and investigate feature selectivity for the two main modes of fly courtship song, sinusoids and pulse trains. We identify 24 new cell types of the intermediate layers of the auditory pathway, and using a new connectomic resource, FlyWire, we map all synaptic connections between these cell types, in addition to connections to known early and higher-order auditory neurons - this represents the first map of the auditory pathway. We additionally determine the sign (excitatory or inhibitory) of most synapses in this auditory connectome. We find that auditory neurons display a continuum of preferences for courtship song modes, and that neurons with different song mode preferences are highly interconnected in a network that lacks hierarchical structure. Among this network, frequency tuning is centered on the range of frequencies present in song, whereas pulse rate tuning extends to rates outside of song, suggesting that these neurons form a basis set for downstream processing. Our study provides new insights into the organization of auditory coding within the Drosophila brain.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2021, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.}
+  chapter = {New Results}
 }
 
-@misc{buhmannAutomaticDetectionSynaptic2020,
-  title = {Automatic {{Detection}} of {{Synaptic Partners}} in a {{Whole-Brain Drosophila EM Dataset}}},
-  author = {Buhmann, Julia and Sheridan, Arlo and Gerhard, Stephan and Krause, Renate and Nguyen, Tri and Heinrich, Larissa and Schlegel, Philipp and Lee, Wei-Chung Allen and Wilson, Rachel and Saalfeld, Stephan and Jefferis, Gregory and Bock, Davi and Turaga, Srinivas and Cook, Matthew and Funke, Jan},
-  year = {2020},
-  month = mar,
-  pages = {2019.12.12.874172},
-  institution = {bioRxiv},
-  doi = {10.1101/2019.12.12.874172},
-  abstract = {The study of neural circuits requires the reconstruction of neurons and the identification of synaptic connections between them. To scale the reconstruction to the size of whole-brain datasets, semi-automatic methods are needed to solve those tasks. Here, we present an automatic method for synaptic partner identification in insect brains, which uses convolutional neural networks to identify post-synaptic sites and their pre-synaptic partners. The networks can be trained from human generated point annotations alone and require only simple post-processing to obtain final predictions. We used our method to extract 244 million putative synaptic partners in the fifty-teravoxel full adult fly brain (FAFB) electron microscopy (EM) dataset and evaluated its accuracy on 146,643 synapses from 702 neurons with a total cable length of 312 mm in four different brain regions. The predicted synaptic connections can be used together with a neuron segmentation to infer a connectivity graph with high accuracy: between 92\% and 96\% of edges linking connected neurons are correctly classified as weakly connected (less than five synapses) and strongly connected (at least five synapses). Our synaptic partner predictions for the FAFB dataset are publicly available, together with a query library allowing automatic retrieval of up- and downstream neurons.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2020, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+@article{baker_2022_neural,
+  title = {Neural Network Organization for Courtship-Song Feature Detection in {{Drosophila}}},
+  author = {Baker, Christa A. and McKellar, Claire and Pang, Rich and Nern, Aljoscha and Dorkenwald, Sven and Pacheco, Diego A. and Eckstein, Nils and Funke, Jan and Dickson, Barry J. and Murthy, Mala},
+  year = {2022},
+  month = aug,
+  journal = {Current Biology},
+  volume = {32},
+  number = {15},
+  pages = {3317-3333.e7},
+  publisher = {Elsevier},
+  issn = {0960-9822},
+  doi = {10.1016/j.cub.2022.06.019},
+  url = {https://www.cell.com/current-biology/abstract/S0960-9822(22)00978-2},
+  pmid = {35793679}
 }
 
-@inproceedings{buhmannSynapticPartnerPrediction2018a,
+@inproceedings{buhmann_2016_tracking,
+  title = {Tracking of Microtubules in Anisotropic Volumes of Neural Tissue},
+  booktitle = {2016 {{IEEE}} 13th {{International Symposium}} on {{Biomedical Imaging}} ({{ISBI}})},
+  author = {Buhmann, Julia M. and Gerhard, Stephan and Cook, Matthew and Funke, Jan},
+  year = {2016},
+  month = apr,
+  pages = {326--329},
+  issn = {1945-8452},
+  doi = {10.1109/ISBI.2016.7493275},
+  url = {https://ieeexplore.ieee.org/abstract/document/7493275},
+  abstract = {For both the automatic and manual reconstruction of neural circuits from electron microscopy (EM) images, the detection and identification of intracellular structures provide useful cues. This is particularly true for microtubules which are indicative of the scaffold of neuronal morphology. However, to our knowledge, the automated reconstruction of microtubules from EM images of neural tissue has received no attention so far. In this paper, we present an automatic method for the tracking of microtubules in 3D EM volumes of neural tissue. We formulate an energy-based model on short candidate segments of microtubules found by a local classifier. We enumerate and score possible links between candidates, in order to find a cost-minimal subset of candidates and links by solving an integer linear program. The model provides a way to incorporate biological priors including both hard constraints (e.g. microtubules are topologically chains of links) and soft constraints (e.g. high curvature is unlikely). We test our method on a challenging EM dataset of Drosophila neural tissue and show that our model reliably tracks microtubules spanning many image sections.}
+}
+
+@inproceedings{buhmann_2018_synaptic,
   title = {Synaptic {{Partner Prediction}} from {{Point Annotations}} in {{Insect Brains}}},
   booktitle = {Medical {{Image Computing}} and {{Computer Assisted Intervention}} -- {{MICCAI}} 2018},
   author = {Buhmann, Julia and Krause, Renate and Lentini, Rodrigo Ceballos and Eckstein, Nils and Cook, Matthew and Turaga, Srinivas and Funke, Jan},
@@ -54,76 +71,169 @@
   isbn = {978-3-030-00934-2}
 }
 
-@inproceedings{buhmannTrackingMicrotubulesAnisotropic2016a,
-  title = {Tracking of Microtubules in Anisotropic Volumes of Neural Tissue},
-  booktitle = {2016 {{IEEE}} 13th {{International Symposium}} on {{Biomedical Imaging}} ({{ISBI}})},
-  author = {Buhmann, Julia M. and Gerhard, Stephan and Cook, Matthew and Funke, Jan},
-  year = {2016},
-  month = apr,
-  pages = {326--329},
-  issn = {1945-8452},
-  doi = {10.1109/ISBI.2016.7493275},
-  abstract = {For both the automatic and manual reconstruction of neural circuits from electron microscopy (EM) images, the detection and identification of intracellular structures provide useful cues. This is particularly true for microtubules which are indicative of the scaffold of neuronal morphology. However, to our knowledge, the automated reconstruction of microtubules from EM images of neural tissue has received no attention so far. In this paper, we present an automatic method for the tracking of microtubules in 3D EM volumes of neural tissue. We formulate an energy-based model on short candidate segments of microtubules found by a local classifier. We enumerate and score possible links between candidates, in order to find a cost-minimal subset of candidates and links by solving an integer linear program. The model provides a way to incorporate biological priors including both hard constraints (e.g. microtubules are topologically chains of links) and soft constraints (e.g. high curvature is unlikely). We test our method on a challenging EM dataset of Drosophila neural tissue and show that our model reliably tracks microtubules spanning many image sections.}
+@article{buhmann_2020_automatic,
+  title = {Automatic {{Detection}} of {{Synaptic Partners}} in a {{Whole-Brain Drosophila EM Dataset}}},
+  author = {Buhmann, Julia and Sheridan, Arlo and Gerhard, Stephan and Krause, Renate and Nguyen, Tri and Heinrich, Larissa and Schlegel, Philipp and Lee, Wei-Chung Allen and Wilson, Rachel and Saalfeld, Stephan and Jefferis, Gregory and Bock, Davi and Turaga, Srinivas and Cook, Matthew and Funke, Jan},
+  year = {2020},
+  month = mar,
+  publisher = {bioRxiv},
+  doi = {10.1101/2019.12.12.874172},
+  url = {https://www.biorxiv.org/content/10.1101/2019.12.12.874172v2},
+  abstract = {The study of neural circuits requires the reconstruction of neurons and the identification of synaptic connections between them. To scale the reconstruction to the size of whole-brain datasets, semi-automatic methods are needed to solve those tasks. Here, we present an automatic method for synaptic partner identification in insect brains, which uses convolutional neural networks to identify post-synaptic sites and their pre-synaptic partners. The networks can be trained from human generated point annotations alone and require only simple post-processing to obtain final predictions. We used our method to extract 244 million putative synaptic partners in the fifty-teravoxel full adult fly brain (FAFB) electron microscopy (EM) dataset and evaluated its accuracy on 146,643 synapses from 702 neurons with a total cable length of 312 mm in four different brain regions. The predicted synaptic connections can be used together with a neuron segmentation to infer a connectivity graph with high accuracy: between 92\% and 96\% of edges linking connected neurons are correctly classified as weakly connected (less than five synapses) and strongly connected (at least five synapses). Our synaptic partner predictions for the FAFB dataset are publicly available, together with a query library allowing automatic retrieval of up- and downstream neurons.},
+  chapter = {New Results}
 }
 
-@article{ecksteinDiscriminativeAttributionCounterfactuals2021,
-  title = {Discriminative {{Attribution}} from {{Counterfactuals}}},
-  author = {Eckstein, Nils and Bates, Alexander S. and Jefferis, Gregory S. X. E. and Funke, Jan},
+@article{buhmann_2021_automatic,
+  title = {Automatic Detection of Synaptic Partners in a Whole-Brain {{Drosophila}} Electron Microscopy Data Set},
+  author = {Buhmann, Julia and Sheridan, Arlo and {Malin-Mayor}, Caroline and Schlegel, Philipp and Gerhard, Stephan and Kazimiers, Tom and Krause, Renate and Nguyen, Tri M. and Heinrich, Larissa and Lee, Wei-Chung Allen and Wilson, Rachel and Saalfeld, Stephan and Jefferis, Gregory S. X. E. and Bock, Davi D. and Turaga, Srinivas C. and Cook, Matthew and Funke, Jan},
   year = {2021},
-  month = sep,
-  journal = {arXiv:2109.13412 [cs]},
-  eprint = {2109.13412},
-  primaryclass = {cs},
-  abstract = {We present a method for neural network interpretability by combining feature attribution with counterfactual explanations to generate attribution maps that highlight the most discriminative features between pairs of classes. We show that this method can be used to quantitatively evaluate the performance of feature attribution methods in an objective manner, thus preventing potential observer bias. We evaluate the proposed method on three diverse datasets, including a challenging artificial dataset and real-world biological data. We show quantitatively and qualitatively that the highlighted features are substantially more discriminative than those extracted using conventional attribution methods and argue that this type of explanation is better suited for understanding fine grained class differences as learned by a deep neural network.},
-  archiveprefix = {arXiv}
+  month = jul,
+  journal = {Nature Methods},
+  volume = {18},
+  number = {7},
+  pages = {771--774},
+  publisher = {Nature Publishing Group},
+  issn = {1548-7105},
+  doi = {10.1038/s41592-021-01183-7},
+  url = {https://www.nature.com/articles/s41592-021-01183-7},
+  abstract = {We develop an automatic method for synaptic partner identification in insect brains and use it to predict synaptic partners in a whole-brain electron microscopy dataset of the fruit fly. The predictions can be used to infer a connectivity graph with high accuracy, thus allowing fast identification of neural pathways. To facilitate circuit reconstruction using our results, we develop CIRCUITMAP, a user interface add-on for the circuit annotation tool CATMAID.}
 }
 
-@misc{ecksteinNeurotransmitterClassificationElectron2020a,
+@article{dorkenwald_2024_neuronal,
+  title = {Neuronal Wiring Diagram of an Adult Brain},
+  author = {Dorkenwald, Sven and Matsliah, Arie and Sterling, Amy R. and Schlegel, Philipp and Yu, Szi-chieh and McKellar, Claire E. and Lin, Albert and Costa, Marta and Eichler, Katharina and Yin, Yijie and Silversmith, Will and {Schneider-Mizell}, Casey and Jordan, Chris S. and Brittain, Derrick and Halageri, Akhilesh and Kuehner, Kai and Ogedengbe, Oluwaseun and Morey, Ryan and Gager, Jay and Kruk, Krzysztof and Perlman, Eric and Yang, Runzhe and Deutsch, David and Bland, Doug and Sorek, Marissa and Lu, Ran and Macrina, Thomas and Lee, Kisuk and Bae, J. Alexander and Mu, Shang and Nehoran, Barak and Mitchell, Eric and Popovych, Sergiy and Wu, Jingpeng and Jia, Zhen and Castro, Manuel A. and Kemnitz, Nico and Ih, Dodam and Bates, Alexander Shakeel and Eckstein, Nils and Funke, Jan and Collman, Forrest and Bock, Davi D. and Jefferis, Gregory S. X. E. and Seung, H. Sebastian and Murthy, Mala},
+  year = {2024},
+  month = oct,
+  journal = {Nature},
+  volume = {634},
+  number = {8032},
+  pages = {124--138},
+  publisher = {Nature Publishing Group},
+  issn = {1476-4687},
+  doi = {10.1038/s41586-024-07558-y},
+  url = {https://www.nature.com/articles/s41586-024-07558-y},
+  abstract = {Connections between neurons can be mapped by acquiring and analysing electron microscopic brain images. In recent years, this approach has been applied to chunks of brains to reconstruct local connectivity maps that are highly informative1--6, but nevertheless inadequate for understanding brain function more globally. Here we present a neuronal wiring diagram of a whole brain containing 5\,{\texttimes}\,107 chemical synapses7 between 139,255 neurons reconstructed from an adult female Drosophila melanogaster8,9. The resource also incorporates annotations of cell classes and types, nerves, hemilineages and predictions of neurotransmitter identities10--12. Data products are available for download, programmatic access and interactive browsing and have been made interoperable with other fly data resources. We derive a projectome---a map of projections between regions---from the connectome and report on tracing of synaptic pathways and the analysis of information flow from inputs (sensory and ascending neurons) to outputs (motor, endocrine and descending neurons) across both hemispheres and between the central brain and the optic lobes. Tracing from a subset of photoreceptors to descending motor pathways illustrates how structure can uncover putative circuit mechanisms underlying sensorimotor behaviours. The technologies and open ecosystem reported here set the stage for future large-scale connectome projects in other species.}
+}
+
+@inproceedings{eckstein_2020_microtubule,
+  title = {Microtubule {{Tracking}} in {{Electron Microscopy Volumes}}},
+  booktitle = {Medical {{Image Computing}} and {{Computer Assisted Intervention}} -- {{MICCAI}} 2020},
+  author = {Eckstein, Nils and Buhmann, Julia and Cook, Matthew and Funke, Jan},
+  editor = {Martel, Anne L. and Abolmaesumi, Purang and Stoyanov, Danail and Mateus, Diana and Zuluaga, Maria A. and Zhou, S. Kevin and Racoceanu, Daniel and Joskowicz, Leo},
+  year = {2020},
+  pages = {99--108},
+  publisher = {Springer International Publishing},
+  address = {Cham},
+  doi = {10.1007/978-3-030-59722-1_10},
+  abstract = {We present a method for microtubule tracking in electron microscopy volumes. Our method first identifies a sparse set of voxels that likely belong to microtubules. Similar to prior work, we then enumerate potential edges between these voxels, which we represent in a candidate graph. Tracks of microtubules are found by selecting nodes and edges in the candidate graph by solving a constrained optimization problem incorporating biological priors on microtubule structure. For this, we present a novel integer linear programming formulation, which results in speed-ups of three orders of magnitude and an increase of 53\% in accuracy compared to prior art (evaluated on three \$\$1.2{\textbackslash}times 4{\textbackslash}times 4{\textbackslash},{\textbackslash}upmu \$\$1.2{\texttimes}4{\texttimes}4{$\mu$}m volumes of Drosophila neural tissue). We also propose a scheme to solve the optimization problem in a block-wise fashion, which allows distributed tracking and is necessary to process very large electron microscopy volumes. Finally, we release a benchmark dataset for microtubule tracking, here used for training, testing and validation, consisting of eight \$\$30 {\textbackslash}times 1000 {\textbackslash}times 1000\$\$30{\texttimes}1000{\texttimes}1000voxel blocks (\$\$1.2{\textbackslash}times 4{\textbackslash}times 4{\textbackslash},{\textbackslash}upmu \$\$1.2{\texttimes}4{\texttimes}4{$\mu$}m) of densely annotated microtubules in the CREMI data set (https://github.com/nilsec/micron).},
+  isbn = {978-3-030-59722-1}
+}
+
+@article{eckstein_2020_neurotransmitter,
   title = {Neurotransmitter {{Classification}} from {{Electron Microscopy Images}} at {{Synaptic Sites}} in {{Drosophila}}},
   author = {Eckstein, Nils and Bates, Alexander S. and Du, Michelle and Hartenstein, Volker and Jefferis, Gregory S. X. E. and Funke, Jan},
   year = {2020},
   month = sep,
-  pages = {2020.06.12.148775},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2020.06.12.148775},
+  url = {https://www.biorxiv.org/content/10.1101/2020.06.12.148775v2},
   abstract = {High-resolution electron microscopy (EM) of nervous systems enables the reconstruction of neural circuits at the level of individual synaptic connections. However, for invertebrates, such as Drosophila melanogaster, it has so far been unclear whether the phenotype of neurons or synapses alone is sufficient to predict specific functional properties such as neurotransmitter identity. Here, we show that in Drosophila melanogaster artificial convolutional neural networks can confidently predict the type of neurotransmitter released at a synaptic site from EM images alone. The network successfully discriminates between six types of neurotransmitters (GABA, glutamate, acetylcholine, serotonin, dopamine, and octopamine) with an average accuracy of 87\% for individual synapses and 94\% for entire neurons, assuming each neuron expresses only one neurotransmitter. This result is surprising as there are often no obvious cues in the EM images that human observers can use to predict neurotransmitter identity. We apply the proposed method to quantify whether, similar to the ventral nervous system (VNS), all hemilineages in the Drosophila melanogaster brain express only one fast acting transmitter within their neurons. To test this principle, we predict the neurotransmitter identity of all identified synapses in 89 hemilineages in the Drosophila melanogaster adult brain. While the majority of our predictions show homogeneity of fast-acting neurotransmitter identity within a single hemilineage, we identify a set of hemilineages that express two fast-acting neurotransmitters with high statistical significance. As a result, our predictions are inconsistent with the hypothesis that all neurons within a hemilineage express the same fast-acting neurotransmitter in the brain of Drosophila melanogaster.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2020, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+  chapter = {New Results}
 }
 
-@phdthesis{funkeAutomaticNeuronReconstruction2014,
+@misc{eckstein_2021_discriminative,
+  title = {Discriminative {{Attribution}} from {{Counterfactuals}}},
+  author = {Eckstein, Nils and Bates, Alexander S. and Jefferis, Gregory S. X. E. and Funke, Jan},
+  year = {2021},
+  month = sep,
+  eprint = {2109.13412},
+  url = {http://arxiv.org/abs/2109.13412},
+  abstract = {We present a method for neural network interpretability by combining feature attribution with counterfactual explanations to generate attribution maps that highlight the most discriminative features between pairs of classes. We show that this method can be used to quantitatively evaluate the performance of feature attribution methods in an objective manner, thus preventing potential observer bias. We evaluate the proposed method on three diverse datasets, including a challenging artificial dataset and real-world biological data. We show quantitatively and qualitatively that the highlighted features are substantially more discriminative than those extracted using conventional attribution methods and argue that this type of explanation is better suited for understanding fine grained class differences as learned by a deep neural network.}
+}
+
+@inproceedings{eckstein_2023_discriminative,
+  title = {Discriminative {{Attribution}} from~{{Paired Images}}},
+  booktitle = {Computer {{Vision}} -- {{ECCV}} 2022 {{Workshops}}},
+  author = {Eckstein, Nils and Bukhari, Habib and Bates, Alexander S. and Jefferis, Gregory S. X. E. and Funke, Jan},
+  editor = {Karlinsky, Leonid and Michaeli, Tomer and Nishino, Ko},
+  year = {2023},
+  pages = {406--422},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  doi = {10.1007/978-3-031-25069-9_27},
+  abstract = {We present a method for deep neural network interpretability by combining feature attribution with counterfactual explanations to generate attribution maps that highlight the most discriminative features between classes. Crucially, this method can be used to quantitatively evaluate the performance of feature attribution methods in an objective manner, thus preventing potential observer bias. We evaluate the proposed method on six diverse datasets, and use it to discover so far unknown morphological features of synapses in Drosophila melanogaster. We show quantitatively and qualitatively that the highlighted features are substantially more discriminative than those extracted using conventional attribution methods and improve upon similar approaches for counterfactual explainability. We argue that the extracted explanations are better suited for understanding fine grained class differences as learned by a deep neural network, in particular for image domains where humans have little to no visual priors, such as biomedical datasets.},
+  isbn = {978-3-031-25069-9}
+}
+
+@article{eckstein_2024_neurotransmitter,
+  title = {Neurotransmitter Classification from Electron Microscopy Images at Synaptic Sites in {{Drosophila}} Melanogaster},
+  author = {Eckstein, Nils and Bates, Alexander Shakeel and Champion, Andrew and Du, Michelle and Yin, Yijie and Schlegel, Philipp and Lu, Alicia Kun-Yang and Rymer, Thomson and {Finley-May}, Samantha and Paterson, Tyler and Parekh, Ruchi and Dorkenwald, Sven and Matsliah, Arie and Yu, Szi-Chieh and McKellar, Claire and Sterling, Amy and Eichler, Katharina and Costa, Marta and Seung, Sebastian and Murthy, Mala and Hartenstein, Volker and Jefferis, Gregory S. X. E. and Funke, Jan},
+  year = {2024},
+  month = may,
+  journal = {Cell},
+  volume = {187},
+  number = {10},
+  pages = {2574-2594.e23},
+  publisher = {Elsevier},
+  issn = {0092-8674, 1097-4172},
+  doi = {10.1016/j.cell.2024.03.016},
+  url = {https://www.cell.com/cell/abstract/S0092-8674(24)00307-6},
+  pmid = {38729112}
+}
+
+@inproceedings{funke_2009_framework,
+  title = {A {{Framework For Evaluating Visual SLAM}}},
+  booktitle = {Procedings of the {{British Machine Vision Conference}} 2009},
+  author = {Funke, Jan and Pietzsch, Tobias},
+  year = {2009},
+  pages = {69.1-69.11},
+  publisher = {British Machine Vision Association},
+  address = {London},
+  doi = {10.5244/C.23.69},
+  url = {http://www.bmva.org/bmvc/2009/Papers/Paper396/Paper396.html},
+  abstract = {Performance analysis in the field of camera-based simultaneous localisation and mapping (Visual SLAM, VSLAM) is still an unsolved problem. For VSLAM systems, there is a lack of generally accepted performance measures, test frameworks, and benchmark problems. Most researchers test by visually inspecting their systems on recorded image sequences, or measuring accuracy on simulated data of simplified point-cloud-like environments. Both approaches have their disadvantages. Recorded sequences lack ground truth. Simulations tend to oversimplify low-level aspects of the problem. In this paper, we propose to evaluate VSLAM systems on rendered image sequences. The intention is to move simulations towards more realistic conditions while still having ground truth. For this purpose, we provide a complete and extensible framework which addresses all aspects, from rendering to ground truth generation and automated evaluation. To illustrate the usefulness of this framework, we provide experimental results assessing the benefit of feature normal estimation and subpixel accurate matching on sequences with and without motion blur.},
+  isbn = {978-1-901725-39-1}
+}
+
+@misc{funke_2011_multihypothesisa,
+  title = {Multi-{{Hypothesis CRF-Segmentation}} of {{Neural Tissue}} in {{Anisotropic EM Volumes}}},
+  author = {Funke, Jan and Andres, Bj{\"o}rn and Hamprecht, Fred and Cardona, Albert and Cook, Matthew},
+  year = {2011},
+  month = sep,
+  number = {arXiv:1109.2449},
+  eprint = {1109.2449},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1109.2449},
+  url = {http://arxiv.org/abs/1109.2449},
+  abstract = {We present an approach for the joint segmentation and grouping of similar components in anisotropic 3D image data and use it to segment neural tissue in serial sections electron microscopy (EM) images. We first construct a nested set of neuron segmentation hypotheses for each slice. A conditional random field (CRF) then allows us to evaluate both the compatibility of a specific segmentation and a specific inter-slice assignment of neuron candidates with the underlying observations. The model is solved optimally for an entire image stack simultaneously using integer linear programming (ILP), which yields the maximum a posteriori solution in amortized linear time in the number of slices. We evaluate the performance of our approach on an annotated sample of the Drosophila larva neuropil and show that the consideration of different segmentation hypotheses in each slice leads to a significant improvement in the segmentation and assignment accuracy.}
+}
+
+@inproceedings{funke_2012_efficient,
+  title = {Efficient Automatic {{3D-reconstruction}} of Branching Neurons from {{EM}} Data},
+  booktitle = {2012 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Funke, Jan and Andres, Bjoern and Hamprecht, Fred A. and Cardona, Albert and Cook, Matthew},
+  year = {2012},
+  month = jun,
+  pages = {1004--1011},
+  issn = {1063-6919},
+  doi = {10.1109/CVPR.2012.6247777},
+  url = {https://ieeexplore.ieee.org/abstract/document/6247777},
+  abstract = {We present an approach for the automatic reconstruction of neurons from 3D stacks of electron microscopy sections. The core of our system is a set of possible assignments, each of which proposes with some cost a link between neuron regions in consecutive sections. These can model the continuation, branching, and end of neurons. The costs are trainable on positive assignment samples. An optimal and consistent set of assignments is found for the whole volume at once by solving an integer linear program. This set of assignments determines both the segmentation into neuron regions and the correspondence between such regions in neighboring slices. For each picked assignment, a confidence value helps to prioritize decisions to be reviewed by a human expert. We evaluate the performance of our method on an annotated volume of neural tissue and compare to the current state of the art [26]. Our method is superior in accuracy and can be trained using a small number of samples. The observed inference times are linear with about 2 milliseconds per neuron and section.}
+}
+
+@phdthesis{funke_2014_automatic,
   title = {Automatic {{Neuron Reconstruction}} from {{Anisotropic Electron Microscopy Volumes}}},
   author = {Funke, Jan},
   year = {2014},
   pages = {1 Band},
   doi = {10.3929/ETHZ-A-010426254},
+  url = {http://hdl.handle.net/20.500.11850/155078},
   abstract = {The work presented in this thesis addresses the problem of the automatic extraction of the wiring diagram of a nervous system from anisotropic electron microscopy volumes with high x- and y-resolution but low z-resolution, as obtained by serial section electron microscopy imaging procedures. A necessary step towards this goal is the segmentation of neural tissue to separate neuron cell interior from membrane and extracellular space, and thus reveal the 3D shape of each neuron, a process called neuron reconstruction.},
   collaborator = {Hahnloser, Richard H.R. and Hamprecht, Fred},
-  copyright = {http://rightsstatements.org/page/InC-NC/1.0/, info:eu-repo/semantics/openAccess},
   school = {ETH Zurich}
 }
 
-@inproceedings{funkeBenchmarkEpithelialCell2018,
-  title = {A {{Benchmark}} for {{Epithelial Cell Tracking}}},
-  booktitle = {Proceedings of the {{European Conference}} on {{Computer Vision}} ({{ECCV}}) {{Workshops}}},
-  author = {Funke, Jan and Mais, Lisa and Champion, Andrew and Dye, Natalie and Kainmueller, Dagmar},
-  year = {2018},
-  pages = {0--0}
-}
-
-@inproceedings{funkeCandidateMulticutCell2018,
-  title = {The Candidate Multi-Cut for Cell Segmentation},
-  booktitle = {2018 {{IEEE}} 15th {{International Symposium}} on {{Biomedical Imaging}} ({{ISBI}} 2018)},
-  author = {Funke, Jan and Zhang, Chong and Pietzsch, Tobias and Gonzalez Ballester, Miguel A. and Saalfeld, Stephan},
-  year = {2018},
-  month = apr,
-  pages = {649--653},
-  issn = {1945-8452},
-  doi = {10.1109/ISBI.2018.8363658},
-  abstract = {Two successful approaches for the segmentation of biomedical images are (1) the selection of segment candidates from a merge-tree, and (2) the clustering of small superpixels by solving a Multi-Cut problem. In this paper, we introduce a model that unifies both approaches. Our model, the Candidate Multi-Cut (CMC), allows joint selection and clustering of segment candidates from a merge-tree. This way, we overcome the respective limitations of the individual methods: (1) the space of possible segmentations is not constrained to candidates of a merge-tree, and (2) the decision for clustering can be made on candidates larger than superpixels, using features over larger contexts. We solve the optimization problem of selecting and clustering of candidates using an integer linear program. On datasets of 2D light microscopy of cell populations and 3D electron microscopy of neurons, we show that our method generalizes well and generates more accurate segmentations than merge-tree or Multi-Cut methods alone.}
-}
-
-@inproceedings{funkeCandidateSamplingNeuron2014,
+@inproceedings{funke_2014_candidate,
   title = {Candidate {{Sampling}} for {{Neuron Reconstruction}} from {{Anisotropic Electron Microscopy Volumes}}},
   booktitle = {Medical {{Image Computing}} and {{Computer-Assisted Intervention}} -- {{MICCAI}} 2014},
   author = {Funke, Jan and Martel, Julien N. P. and Gerhard, Stephan and Andres, Bjoern and Cire{\c s}an, Dan C. and Giusti, Alessandro and Gambardella, Luca M. and Schmidhuber, J{\"u}rgen and Pfister, Hanspeter and Cardona, Albert and Cook, Matthew},
@@ -138,48 +248,7 @@
   isbn = {978-3-319-10404-1}
 }
 
-@inproceedings{funkeEfficientAutomatic3Dreconstruction2012,
-  title = {Efficient Automatic {{3D-reconstruction}} of Branching Neurons from {{EM}} Data},
-  booktitle = {2012 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
-  author = {Funke, Jan and Andres, Bjoern and Hamprecht, Fred A. and Cardona, Albert and Cook, Matthew},
-  year = {2012},
-  month = jun,
-  pages = {1004--1011},
-  issn = {1063-6919},
-  doi = {10.1109/CVPR.2012.6247777},
-  abstract = {We present an approach for the automatic reconstruction of neurons from 3D stacks of electron microscopy sections. The core of our system is a set of possible assignments, each of which proposes with some cost a link between neuron regions in consecutive sections. These can model the continuation, branching, and end of neurons. The costs are trainable on positive assignment samples. An optimal and consistent set of assignments is found for the whole volume at once by solving an integer linear program. This set of assignments determines both the segmentation into neuron regions and the correspondence between such regions in neighboring slices. For each picked assignment, a confidence value helps to prioritize decisions to be reviewed by a human expert. We evaluate the performance of our method on an annotated volume of neural tissue and compare to the current state of the art [26]. Our method is superior in accuracy and can be trained using a small number of samples. The observed inference times are linear with about 2 milliseconds per neuron and section.},
-  copyright = {All rights reserved}
-}
-
-@inproceedings{funkeFrameworkEvaluatingVisual2009,
-  title = {A {{Framework For Evaluating Visual SLAM}}},
-  booktitle = {Procedings of the {{British Machine Vision Conference}} 2009},
-  author = {Funke, Jan and Pietzsch, Tobias},
-  year = {2009},
-  pages = {69.1-69.11},
-  publisher = {British Machine Vision Association},
-  address = {London},
-  doi = {10.5244/C.23.69},
-  abstract = {Performance analysis in the field of camera-based simultaneous localisation and mapping (Visual SLAM, VSLAM) is still an unsolved problem. For VSLAM systems, there is a lack of generally accepted performance measures, test frameworks, and benchmark problems. Most researchers test by visually inspecting their systems on recorded image sequences, or measuring accuracy on simulated data of simplified point-cloud-like environments. Both approaches have their disadvantages. Recorded sequences lack ground truth. Simulations tend to oversimplify low-level aspects of the problem. In this paper, we propose to evaluate VSLAM systems on rendered image sequences. The intention is to move simulations towards more realistic conditions while still having ground truth. For this purpose, we provide a complete and extensible framework which addresses all aspects, from rendering to ground truth generation and automated evaluation. To illustrate the usefulness of this framework, we provide experimental results assessing the benefit of feature normal estimation and subpixel accurate matching on sequences with and without motion blur.},
-  copyright = {All rights reserved},
-  isbn = {978-1-901725-39-1}
-}
-
-@article{funkeLargeScaleImage2019,
-  title = {Large {{Scale Image Segmentation}} with {{Structured Loss Based Deep Learning}} for {{Connectome Reconstruction}}},
-  author = {Funke, Jan and Tschopp, Fabian and Grisaitis, William and Sheridan, Arlo and Singh, Chandan and Saalfeld, Stephan and Turaga, Srinivas C.},
-  year = {2019},
-  month = jul,
-  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  volume = {41},
-  number = {7},
-  pages = {1669--1680},
-  issn = {1939-3539},
-  doi = {10.1109/TPAMI.2018.2835450},
-  abstract = {We present a method combining affinity prediction with region agglomeration, which improves significantly upon the state of the art of neuron segmentation from electron microscopy (EM) in accuracy and scalability. Our method consists of a 3D U-Net, trained to predict affinities between voxels, followed by iterative region agglomeration. We train using a structured loss based on Malis, encouraging topologically correct segmentations obtained from affinity thresholding. Our extension consists of two parts: First, we present a quasi-linear method to compute the loss gradient, improving over the original quadratic algorithm. Second, we compute the gradient in two separate passes to avoid spurious gradient contributions in early training stages. Our predictions are accurate enough that simple learning-free percentile-based agglomeration outperforms more involved methods used earlier on inferior predictions. We present results on three diverse EM datasets, achieving relative improvements over previous results of 27, 15, and 250 percent. Our findings suggest that a single method can be applied to both nearly isotropic block-face EM data and anisotropic serial sectioned EM data. The runtime of our method scales linearly with the size of the volume and achieves a throughput of 2.6 seconds per megavoxel, qualifying our method for the processing of very large datasets.}
-}
-
-@inproceedings{funkeLearningSegmentTraining2015a,
+@inproceedings{funke_2015_learning,
   title = {Learning to {{Segment}}: {{Training Hierarchical Segmentation}} under a {{Topological Loss}}},
   shorttitle = {Learning to {{Segment}}},
   booktitle = {Medical {{Image Computing}} and {{Computer-Assisted Intervention}} -- {{MICCAI}} 2015},
@@ -195,20 +264,7 @@
   isbn = {978-3-319-24574-4}
 }
 
-@article{funkeMultiHypothesisCRFSegmentationNeural2011,
-  title = {Multi-{{Hypothesis CRF-Segmentation}} of {{Neural Tissue}} in {{Anisotropic EM Volumes}}},
-  author = {Funke, Jan and Andres, Bj{\"o}rn and Hamprecht, Fred and Cardona, Albert and Cook, Matthew},
-  year = {2011},
-  month = sep,
-  journal = {arXiv:1109.2449 [cs]},
-  eprint = {1109.2449},
-  primaryclass = {cs},
-  abstract = {We present an approach for the joint segmentation and grouping of similar components in anisotropic 3D image data and use it to segment neural tissue in serial sections electron microscopy (EM) images. We first construct a nested set of neuron segmentation hypotheses for each slice. A conditional random field (CRF) then allows us to evaluate both the compatibility of a specific segmentation and a specific inter-slice assignment of neuron candidates with the underlying observations. The model is solved optimally for an entire image stack simultaneously using integer linear programming (ILP), which yields the maximum a posteriori solution in amortized linear time in the number of slices. We evaluate the performance of our approach on an annotated sample of the Drosophila larva neuropil and show that the consideration of different segmentation hypotheses in each slice leads to a significant improvement in the segmentation and assignment accuracy.},
-  archiveprefix = {arXiv},
-  copyright = {All rights reserved}
-}
-
-@inproceedings{funkeStructuredLearningAssignment2016,
+@inproceedings{funke_2016_structured,
   title = {Structured Learning of Assignment Models for Neuron Reconstruction to Minimize Topological Errors},
   booktitle = {2016 {{IEEE}} 13th {{International Symposium}} on {{Biomedical Imaging}} ({{ISBI}})},
   author = {Funke, Jan and Klein, Jonas and {Moreno-Noguer}, Francesc and Cardona, Albert and Cook, Matthew},
@@ -217,10 +273,11 @@
   pages = {607--611},
   issn = {1945-8452},
   doi = {10.1109/ISBI.2016.7493341},
+  url = {https://ieeexplore.ieee.org/abstract/document/7493341},
   abstract = {Structured learning provides a powerful framework for empirical risk minimization on the predictions of structured models. It allows end-to-end learning of model parameters to minimize an application specific loss function. This framework is particularly well suited for discrete optimization models that are used for neuron reconstruction from anisotropic electron microscopy (EM) volumes. However, current methods are still learning unary potentials by training a classifier that is agnostic about the model it is used in. We believe the reason for that lies in the difficulties of (1) finding a representative training sample, and (2) designing an application specific loss function that captures the quality of a proposed solution. In this paper, we show how to find a representative training sample from human generated ground truth, and propose a loss function that is suitable to minimize topological errors in the reconstruction. We compare different training methods on two challenging EM-datasets. Our structured learning approach shows consistently higher reconstruction accuracy than other current learning methods.}
 }
 
-@article{funkeTEDTolerantEdit2017,
+@article{funke_2017_ted,
   title = {{{TED}}: {{A Tolerant Edit Distance}} for Segmentation Evaluation},
   shorttitle = {{{TED}}},
   author = {Funke, Jan and Klein, Jonas and {Moreno-Noguer}, Francesc and Cardona, Albert and Cook, Matthew},
@@ -232,25 +289,147 @@
   pages = {119--127},
   issn = {1046-2023},
   doi = {10.1016/j.ymeth.2016.12.013},
+  url = {https://www.sciencedirect.com/science/article/pii/S1046202316305072},
   abstract = {In this paper, we present a novel error measure to compare a computer-generated segmentation of images or volumes against ground truth. This measure, which we call Tolerant Edit Distance (TED), is motivated by two observations that we usually encounter in biomedical image processing: (1) Some errors, like small boundary shifts, are tolerable in practice. Which errors are tolerable is application dependent and should be explicitly expressible in the measure. (2) Non-tolerable errors have to be corrected manually. The effort needed to do so should be reflected by the error measure. Our measure is the minimal weighted sum of split and merge operations to apply to one segmentation such that it resembles another segmentation within specified tolerance bounds. This is in contrast to other commonly used measures like Rand index or variation of information, which integrate small, but tolerable, differences. Additionally, the TED provides intuitive numbers and allows the localization and classification of errors in images or volumes. We demonstrate the applicability of the TED on 3D segmentations of neurons in electron microscopy images where topological correctness is arguable more important than exact boundary locations. Furthermore, we show that the TED is not just limited to evaluation tasks. We use it as the loss function in a max-margin learning framework to find parameters of an automatic neuron segmentation algorithm. We show that training to minimize the TED, i.e., to minimize crucial errors, leads to higher segmentation accuracy compared to other learning methods.}
 }
 
-@inproceedings{heinrichSynapticCleftSegmentation2018a,
-  title = {Synaptic {{Cleft Segmentation}} in {{Non-isotropic Volume Electron Microscopy}} of the {{Complete Drosophila Brain}}},
-  booktitle = {Medical {{Image Computing}} and {{Computer Assisted Intervention}} -- {{MICCAI}} 2018},
-  author = {Heinrich, Larissa and Funke, Jan and Pape, Constantin and {Nunez-Iglesias}, Juan and Saalfeld, Stephan},
-  editor = {Frangi, Alejandro F. and Schnabel, Julia A. and Davatzikos, Christos and {Alberola-L{\'o}pez}, Carlos and Fichtinger, Gabor},
+@inproceedings{funke_2018_benchmark,
+  title = {A {{Benchmark}} for {{Epithelial Cell Tracking}}},
+  booktitle = {Proceedings of the {{European Conference}} on {{Computer Vision}} ({{ECCV}}) {{Workshops}}},
+  author = {Funke, Jan and Mais, Lisa and Champion, Andrew and Dye, Natalie and Kainmueller, Dagmar},
   year = {2018},
-  series = {Lecture {{Notes}} in {{Computer Science}}},
-  pages = {317--325},
-  publisher = {Springer International Publishing},
-  address = {Cham},
-  doi = {10.1007/978-3-030-00934-2_36},
-  abstract = {Neural circuit reconstruction at single synapse resolution is increasingly recognized as crucially important to decipher the function of biological nervous systems. Volume electron microscopy in serial transmission or scanning mode has been demonstrated to provide the necessary resolution to segment or trace all neurites and to annotate all synaptic connections.},
-  isbn = {978-3-030-00934-2}
+  url = {https://openaccess.thecvf.com/content\_eccv\_2018\_workshops/w33/html/Funke\_A\_Benchmark\_for\_Epithelial\_Cell\_Tracking\_ECCVW\_2018\_paper.html}
 }
 
-@inproceedings{jugOptimalJointSegmentation2014,
+@inproceedings{funke_2018_candidate,
+  title = {The Candidate Multi-Cut for Cell Segmentation},
+  booktitle = {2018 {{IEEE}} 15th {{International Symposium}} on {{Biomedical Imaging}} ({{ISBI}} 2018)},
+  author = {Funke, Jan and Zhang, Chong and Pietzsch, Tobias and Gonzalez Ballester, Miguel A. and Saalfeld, Stephan},
+  year = {2018},
+  month = apr,
+  pages = {649--653},
+  issn = {1945-8452},
+  doi = {10.1109/ISBI.2018.8363658},
+  url = {https://ieeexplore.ieee.org/abstract/document/8363658},
+  abstract = {Two successful approaches for the segmentation of biomedical images are (1) the selection of segment candidates from a merge-tree, and (2) the clustering of small superpixels by solving a Multi-Cut problem. In this paper, we introduce a model that unifies both approaches. Our model, the Candidate Multi-Cut (CMC), allows joint selection and clustering of segment candidates from a merge-tree. This way, we overcome the respective limitations of the individual methods: (1) the space of possible segmentations is not constrained to candidates of a merge-tree, and (2) the decision for clustering can be made on candidates larger than superpixels, using features over larger contexts. We solve the optimization problem of selecting and clustering of candidates using an integer linear program. On datasets of 2D light microscopy of cell populations and 3D electron microscopy of neurons, we show that our method generalizes well and generates more accurate segmentations than merge-tree or Multi-Cut methods alone.}
+}
+
+@article{funke_2019_large,
+  title = {Large {{Scale Image Segmentation}} with {{Structured Loss Based Deep Learning}} for {{Connectome Reconstruction}}},
+  author = {Funke, Jan and Tschopp, Fabian and Grisaitis, William and Sheridan, Arlo and Singh, Chandan and Saalfeld, Stephan and Turaga, Srinivas C.},
+  year = {2019},
+  month = jul,
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume = {41},
+  number = {7},
+  pages = {1669--1680},
+  issn = {1939-3539},
+  doi = {10.1109/TPAMI.2018.2835450},
+  url = {https://ieeexplore.ieee.org/abstract/document/8364622},
+  abstract = {We present a method combining affinity prediction with region agglomeration, which improves significantly upon the state of the art of neuron segmentation from electron microscopy (EM) in accuracy and scalability. Our method consists of a 3D U-Net, trained to predict affinities between voxels, followed by iterative region agglomeration. We train using a structured loss based on Malis, encouraging topologically correct segmentations obtained from affinity thresholding. Our extension consists of two parts: First, we present a quasi-linear method to compute the loss gradient, improving over the original quadratic algorithm. Second, we compute the gradient in two separate passes to avoid spurious gradient contributions in early training stages. Our predictions are accurate enough that simple learning-free percentile-based agglomeration outperforms more involved methods used earlier on inferior predictions. We present results on three diverse EM datasets, achieving relative improvements over previous results of 27, 15, and 250 percent. Our findings suggest that a single method can be applied to both nearly isotropic block-face EM data and anisotropic serial sectioned EM data. The runtime of our method scales linearly with the size of the volume and achieves a throughput of 2.6 seconds per megavoxel, qualifying our method for the processing of very large datasets.}
+}
+
+@misc{heinrich_2020_automatic,
+  title = {Automatic Whole Cell Organelle Segmentation in Volumetric Electron Microscopy},
+  author = {Heinrich, Larissa and Bennett, Davis and Ackerman, David and Park, Woohyun and Bogovic, John and Eckstein, Nils and Petruncio, Alyson and Clements, Jody and Xu, C. Shan and Funke, Jan and Korff, Wyatt and Hess, Harald F. and {Lippincott-Schwartz}, Jennifer and Saalfeld, Stephan and Weigel, Aubrey V. and Team, COSEM Project},
+  year = {2020},
+  month = nov,
+  pages = {2020.11.14.382143},
+  publisher = {bioRxiv},
+  doi = {10.1101/2020.11.14.382143},
+  url = {https://www.biorxiv.org/content/10.1101/2020.11.14.382143v1},
+  abstract = {Cells contain hundreds of different organelle and macromolecular assemblies intricately organized relative to each other to meet any cellular demands. Obtaining a complete understanding of their organization is challenging and requires nanometer-level, threedimensional reconstruction of whole cells. Even then, the immense size of datasets and large number of structures to be characterized requires generalizable, automatic methods. To meet this challenge, we developed an analysis pipeline for comprehensively reconstructing and analyzing the cellular organelles in entire cells imaged by focused ion beam scanning electron microscopy (FIB-SEM) at a near-isotropic size of 4 or 8 nm per voxel. The pipeline involved deep learning architectures trained on diverse samples for automatic reconstruction of 35 different cellular organelle classes - ranging from endoplasmic reticulum to microtubules to ribosomes - from multiple cell types. Automatic reconstructions were used to directly quantify various previously inaccessible metrics about these structures, including their spatial interactions. We show that automatic organelle reconstructions can also be used to automatically register light and electron microscopy images for correlative studies. We created an open data and open source web repository, OpenOrganelle, to share the data, computer code, and trained models, enabling scientists everywhere to query and further reconstruct the datasets.},
+  chapter = {New Results}
+}
+
+@article{heinrich_2021_wholecell,
+  title = {Whole-Cell Organelle Segmentation in Volume Electron Microscopy},
+  author = {Heinrich, Larissa and Bennett, Davis and Ackerman, David and Park, Woohyun and Bogovic, John and Eckstein, Nils and Petruncio, Alyson and Clements, Jody and Pang, Song and Xu, C. Shan and Funke, Jan and Korff, Wyatt and Hess, Harald F. and {Lippincott-Schwartz}, Jennifer and Saalfeld, Stephan and Weigel, Aubrey V.},
+  year = {2021},
+  month = nov,
+  journal = {Nature},
+  volume = {599},
+  number = {7883},
+  pages = {141--146},
+  publisher = {Nature Publishing Group},
+  issn = {1476-4687},
+  doi = {10.1038/s41586-021-03977-3},
+  url = {https://www.nature.com/articles/s41586-021-03977-3},
+  abstract = {Cells contain hundreds of organelles and macromolecular assemblies. Obtaining a complete understanding of their intricate organization requires the nanometre-level, three-dimensional reconstruction of whole cells, which is only feasible with robust and scalable automatic methods. Here, to support the development of such methods, we annotated up to 35 different cellular organelle classes---ranging from endoplasmic reticulum to microtubules to ribosomes---in diverse sample volumes from multiple cell types imaged at a near-isotropic resolution of 4\,nm per voxel with focused ion beam scanning electron microscopy (FIB-SEM)1. We trained deep learning architectures to segment these structures in 4\,nm and 8\,nm per voxel FIB-SEM volumes, validated their performance and showed that automatic reconstructions can be used to directly quantify previously inaccessible metrics including spatial interactions between cellular components. We also show that such reconstructions can be used to automatically register light and electron microscopy images for correlative studies. We have created an open data and open-source web repository, `OpenOrganelle', to share the data, computer code and trained models, which will enable scientists everywhere to query and further improve automatic reconstruction of these datasets.}
+}
+
+@article{heinrich_2023_generalizable,
+  title = {Towards {{Generalizable Organelle Segmentation}} in {{Volume Electron Microscopy}}},
+  author = {Heinrich, Larissa and Patton, Will and Bennett, Davis and Ackerman, David and Park, Grace and Bogovic, John A and Eckstein, Nils and Petruncio, Alyson and Clements, Jody and Pang, Song and Shan Xu, C and Funke, Jan and Korff, Wyatt and Hess, Harald and {Lippincott-Schwartz}, Jennifer and Saalfeld, Stephan and Weigel, Aubrey and {CellMap Project Team}},
+  year = {2023},
+  month = aug,
+  journal = {Microscopy and Microanalysis},
+  volume = {29},
+  number = {Supplement\_1},
+  pages = {975},
+  issn = {1431-9276},
+  doi = {10.1093/micmic/ozad067.487},
+  url = {https://doi.org/10.1093/micmic/ozad067.487},
+  abstract = {Volume electron microscopy enables the joint visualization of multiple subcellular structures within the same sample, making it an ideal tool for studying interactions between different organelles at high resolution. However, the identification of these structures relies solely on their texture and morphology, and as a result, advanced image analysis methods are required to reconstruct them at scale. Recent advancements in machine learning techniques for analyzing this data are leading to new discoveries about the inner workings of cells and tissues.We manually annotated 36 subcellular structures in small blocks from high-resolution focused ion beam scanning electron microscopy data of various cell types and tissues. With this diverse set of ground truth, we trained deep neural networks to predict signed boundary distances for each organelle that we can use to generate large scale reconstructions for a variety of samples [1]. These automatic reconstructions have enabled new types of analyses, such as quantifying organelle composition of different cells and assessing interactions between cellular components. In addition, the reconstructions allowed us to automate the registration process for correlative light electron microscopy data.}
+}
+
+@misc{hillsley_2024_bayesian,
+  title = {A {{Bayesian Solution}} to {{Count}} the {{Number}} of {{Molecules}} within a {{Diffraction Limited Spot}}},
+  author = {Hillsley, Alexander and Stein, Johannes and Tillberg, Paul W. and Stern, David L. and Funke, Jan},
+  year = {2024},
+  month = jul,
+  pages = {2024.04.18.590066},
+  publisher = {bioRxiv},
+  doi = {10.1101/2024.04.18.590066},
+  url = {https://www.biorxiv.org/content/10.1101/2024.04.18.590066v3},
+  abstract = {We address the problem of inferring the number of independently blinking fluorescent light emitters, when only their combined intensity contributions can be observed at each timepoint. This problem occurs regularly in light microscopy of objects that are smaller than the diffraction limit, where one wishes to count the number of fluorescently labelled subunits. Our proposed solution directly models the photo-physics of the system, as well as the blinking kinetics of the fluorescent emitters as a fully differentiable hidden Markov model. Given a trace of intensity over time, our model jointly estimates the parameters of the intensity distribution per emitter, their blinking rates, as well as a posterior distribution of the total number of fluorescent emitters. We show that our model is consistently more accurate and increases the range of countable subunits by a factor of two compared to current state-of-the-art methods, which count based on autocorrelation and blinking frequency. Furthermore, we demonstrate that our model can be used to investigate the effect of blinking kinetics on counting ability, and therefore can inform experimental conditions that will maximize counting accuracy.},
+  chapter = {New Results}
+}
+
+@inproceedings{hirsch_2022_tracking,
+  title = {Tracking by~{{Weakly-Supervised Learning}} and~{{Graph Optimization}} for~{{Whole-Embryo C}}. Elegans Lineages},
+  booktitle = {Medical {{Image Computing}} and {{Computer Assisted Intervention}} -- {{MICCAI}} 2022},
+  author = {Hirsch, Peter and {Malin-Mayor}, Caroline and Santella, Anthony and Preibisch, Stephan and Kainmueller, Dagmar and Funke, Jan},
+  editor = {Wang, Linwei and Dou, Qi and Fletcher, P. Thomas and Speidel, Stefanie and Li, Shuo},
+  year = {2022},
+  eprint = {2208.11467},
+  pages = {25--35},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  doi = {10.1007/978-3-031-16440-8_3},
+  abstract = {Tracking all nuclei of an embryo in noisy and dense fluorescence microscopy data is a challenging task. We build upon a recent method for nuclei tracking that combines weakly-supervised learning from a small set of nuclei center point annotations with an integer linear program (ILP) for optimal cell lineage extraction. Our work specifically addresses the following challenging properties of C. elegans embryo recordings: (1) Many cell divisions as compared to benchmark recordings of other organisms, and (2) the presence of polar bodies that are easily mistaken as cell nuclei. To cope with (1), we devise and incorporate a learnt cell division detector. To cope with (2), we employ a learnt polar body detector. We further propose automated ILP weights tuning via a structured SVM, alleviating the need for tedious manual set-up of a respective grid search.},
+  isbn = {978-3-031-16440-8}
+}
+
+@inproceedings{hu_2022_physicsinformed,
+  title = {Physics-{{Informed Variational Autoencoder}} for {{Undersampled Fourier Ptychography}}},
+  booktitle = {Imaging and {{Applied Optics Congress}} 2022 ({{3D}}, {{AOA}}, {{COSI}}, {{ISA}}, {{pcAOP}}) (2022), Paper {{CF1D}}.8},
+  author = {Hu, Yolanda and Olsen, Andrew and Funke, Jan and Turaga, Srinivas and Ganapati, Vidya},
+  year = {2022},
+  month = jul,
+  pages = {CF1D.8},
+  publisher = {Optica Publishing Group},
+  doi = {10.1364/COSI.2022.CF1D.8},
+  url = {https://opg.optica.org/abstract.cfm?uri=COSI-2022-CF1D.8},
+  abstract = {This paper presents an unsupervised deep learning method for complex object reconstruction in severely undersampled Fourier ptychographic microscopy. The method requires no ground truth objects, only a dataset of undersampled measurements.}
+}
+
+@article{imoto_2024_neuralcircuit,
+  title = {Neural-Circuit Basis of Song Preference Learning in Fruit Flies},
+  author = {Imoto, Keisuke and Ishikawa, Yuki and Aso, Yoshinori and Funke, Jan and Tanaka, Ryoya and Kamikouchi, Azusa},
+  year = {2024},
+  month = jul,
+  journal = {iScience},
+  volume = {27},
+  number = {7},
+  publisher = {Elsevier},
+  issn = {2589-0042},
+  doi = {10.1016/j.isci.2024.110266},
+  url = {https://www.cell.com/iscience/abstract/S2589-0042(24)01491-3},
+  pmid = {39040064}
+}
+
+@inproceedings{jug_2014_optimal,
   title = {Optimal {{Joint Segmentation}} and {{Tracking}} of {{Escherichia Coli}} in the {{Mother Machine}}},
   booktitle = {Bayesian and {{grAphical Models}} for {{Biomedical Imaging}}},
   author = {Jug, Florian and Pietzsch, Tobias and Kainm{\"u}ller, Dagmar and Funke, Jan and Kaiser, Matthias and {van Nimwegen}, Erik and Rother, Carsten and Myers, Gene},
@@ -265,7 +444,7 @@
   isbn = {978-3-319-12289-2}
 }
 
-@inproceedings{kreshukWhoTalkingWhom2015,
+@inproceedings{kreshuk_2015_who,
   title = {Who {{Is Talking}} to {{Whom}}: {{Synaptic Partner Detection}} in {{Anisotropic Volumes}} of {{Insect Brain}}},
   shorttitle = {Who {{Is Talking}} to {{Whom}}},
   booktitle = {Medical {{Image Computing}} and {{Computer-Assisted Intervention}} -- {{MICCAI}} 2015},
@@ -281,7 +460,23 @@
   isbn = {978-3-319-24553-9}
 }
 
-@article{lundbergWhichImagebasedPhenotypes2021a,
+@article{lin_2024_network,
+  title = {Network Statistics of the Whole-Brain Connectome of {{Drosophila}}},
+  author = {Lin, Albert and Yang, Runzhe and Dorkenwald, Sven and Matsliah, Arie and Sterling, Amy R. and Schlegel, Philipp and Yu, Szi-chieh and McKellar, Claire E. and Costa, Marta and Eichler, Katharina and Bates, Alexander Shakeel and Eckstein, Nils and Funke, Jan and Jefferis, Gregory S. X. E. and Murthy, Mala},
+  year = {2024},
+  month = oct,
+  journal = {Nature},
+  volume = {634},
+  number = {8032},
+  pages = {153--165},
+  publisher = {Nature Publishing Group},
+  issn = {1476-4687},
+  doi = {10.1038/s41586-024-07968-y},
+  url = {https://www.nature.com/articles/s41586-024-07968-y},
+  abstract = {Brains comprise complex networks of neurons and connections, similar to the nodes and edges of artificial networks. Network analysis applied to the wiring diagrams of brains can offer insights into how they support computations and regulate the flow of~information underlying perception and behaviour. The completion of the first whole-brain connectome of an adult fly, containing over 130,000 neurons and millions of synaptic connections1--3, offers an opportunity to analyse the statistical properties and topological features of a complete brain. Here we computed the prevalence of two- and three-node motifs, examined their strengths, related this information to both neurotransmitter composition and cell type annotations4,5, and compared these metrics with wiring diagrams of other animals. We found that the network of the fly brain displays rich-club organization, with a large population (30\% of the connectome) of highly connected neurons. We identified subsets of rich-club neurons that may serve as integrators or broadcasters of signals. Finally, we examined subnetworks based on 78 anatomically defined brain regions or neuropils. These data products are shared within the FlyWire Codex (https://codex.flywire.ai) and should serve as a foundation for models and experiments exploring the relationship between neural activity and anatomical structure.}
+}
+
+@article{lundberg_2021_which,
   title = {Which Image-Based Phenotypes Are Most Promising for Using {{AI}} to Understand Cellular Functions and Why?},
   author = {Lundberg, Emma and Funke, Jan and Uhlmann, Virginie and Gerlich, Daniel and Walter, Thomas and Carpenter, Anne and Coelho, Luis Pedro},
   year = {2021},
@@ -291,85 +486,246 @@
   number = {5},
   pages = {384--387},
   issn = {24054712},
-  doi = {10.1016/j.cels.2021.04.012}
+  doi = {10.1016/j.cels.2021.04.012},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S2405471221001551}
 }
 
-@misc{malin-mayorAutomatedReconstructionWholeEmbryo2021,
+@article{malin-mayor_2021_automated,
   title = {Automated {{Reconstruction}} of {{Whole-Embryo Cell Lineages}} by {{Learning}} from {{Sparse Annotations}}},
   author = {{Malin-Mayor}, Caroline and Hirsch, Peter and Guignard, Leo and McDole, Katie and Wan, Yinan and Lemon, William C. and Keller, Philipp J. and Preibisch, Stephan and Funke, Jan},
   year = {2021},
   month = jul,
-  pages = {2021.07.28.454016},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2021.07.28.454016},
+  url = {https://www.biorxiv.org/content/10.1101/2021.07.28.454016v1},
   abstract = {We present a method for automated nucleus identification and tracking in time-lapse microscopy recordings of entire developing embryos. Our method combines deep learning and global optimization to enable complete lineage reconstruction from sparse point annotations, and uses parallelization to process multi-terabyte light-sheet recordings, which we demonstrate on three common model organisms: mouse, zebrafish, Drosophila. On the most difficult dataset (mouse), our method correctly reconstructs 75.8\% of cell lineages spanning 1 hour, compared to 31.8\% for the previous state of the art, thus enabling biologists to determine where and when cell fate decisions are made in developing embryos, tissues, and organs.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2021, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+  chapter = {New Results}
 }
 
-@misc{maniates-selvinReconstructionMotorControl2020,
+@article{malin-mayor_2023_automated,
+  title = {Automated Reconstruction of Whole-Embryo Cell Lineages by Learning from Sparse Annotations},
+  author = {{Malin-Mayor}, Caroline and Hirsch, Peter and Guignard, Leo and McDole, Katie and Wan, Yinan and Lemon, William C. and Kainmueller, Dagmar and Keller, Philipp J. and Preibisch, Stephan and Funke, Jan},
+  year = {2023},
+  month = jan,
+  journal = {Nature Biotechnology},
+  volume = {41},
+  number = {1},
+  pages = {44--49},
+  publisher = {Nature Publishing Group},
+  issn = {1546-1696},
+  doi = {10.1038/s41587-022-01427-7},
+  url = {https://www.nature.com/articles/s41587-022-01427-7},
+  abstract = {We present a method to automatically identify and track nuclei in time-lapse microscopy recordings of entire developing embryos. The method combines deep learning and global optimization. On a mouse dataset, it reconstructs 75.8\% of cell lineages spanning 1 h, as compared to 31.8\% for the competing method. Our approach improves understanding of where and when cell fate decisions are made in developing embryos, tissues, and organs.}
+}
+
+@article{maniates-selvin_2020_reconstruction,
   title = {Reconstruction of Motor Control Circuits in Adult {{Drosophila}} Using Automated Transmission Electron Microscopy},
   author = {{Maniates-Selvin}, Jasper T. and Hildebrand, David Grant Colburn and Graham, Brett J. and Kuan, Aaron T. and Thomas, Logan A. and Nguyen, Tri and Buhmann, Julia and Azevedo, Anthony W. and Shanny, Brendan L. and Funke, Jan and Tuthill, John C. and Lee, Wei-Chung Allen},
   year = {2020},
   month = jan,
-  pages = {2020.01.10.902478},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2020.01.10.902478},
+  url = {https://www.biorxiv.org/content/10.1101/2020.01.10.902478v1},
   abstract = {Many animals use coordinated limb movements to interact with and navigate through the environment. To investigate circuit mechanisms underlying locomotor behavior, we used serial-section electron microscopy (EM) to map synaptic connectivity within a neuronal network that controls limb movements. We present a synapse-resolution EM dataset containing the ventral nerve cord (VNC) of an adult female Drosophila melanogaster. To generate this dataset, we developed GridTape, a technology that combines automated serial-section collection with automated high-throughput transmission EM. Using this dataset, we reconstructed 507 motor neurons, including all those that control the legs and wings. We show that a specific class of leg sensory neurons directly synapse onto the largest-caliber motor neuron axons on both sides of the body, representing a unique feedback pathway for fast limb control. We provide open access to the dataset and reconstructions registered to a standard atlas to permit matching of cells between EM and light microscopy data. We also provide GridTape instrumentation designs and software to make large-scale EM data acquisition more accessible and affordable to the scientific community.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2020, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+  chapter = {New Results}
 }
 
-@misc{nguyenStructuredConnectivityCerebellum2021,
+@misc{mehta_2024_modelbased,
+  title = {Model-Based Inference of Synaptic Plasticity Rules},
+  author = {Mehta, Yash and Tyulmankov, Danil and Rajagopalan, Adithya E. and Turner, Glenn C. and Fitzgerald, James E. and Funke, Jan},
+  year = {2024},
+  month = nov,
+  pages = {2023.12.11.571103},
+  publisher = {bioRxiv},
+  doi = {10.1101/2023.12.11.571103},
+  url = {https://www.biorxiv.org/content/10.1101/2023.12.11.571103v3},
+  abstract = {Inferring the synaptic plasticity rules that govern learning in the brain is a key challenge in neuroscience. We present a novel computational method to infer these rules from experimental data, applicable to both neural and behavioral data. Our approach approximates plasticity rules using a parameterized function, employing either truncated Taylor series for theoretical interpretability or multilayer perceptrons. These plasticity parameters are optimized via gradient descent over entire trajectories to align closely with observed neural activity or behavioral learning dynamics. This method can uncover complex rules that induce long nonlinear time dependencies, particularly involving factors like postsynaptic activity and current synaptic weights. We validate our approach through simulations, successfully recovering established rules such as Oja's, as well as more intricate plasticity rules with reward-modulated terms. We assess the robustness of our technique to noise and apply it to behavioral data from Drosophila in a probabilistic reward-learning experiment. Notably, our findings reveal an active forgetting component in reward learning in flies, improving predictive accuracy over previous models. This modeling framework offers a promising new avenue for elucidating the computational principles of synaptic plasticity and learning in the brain.},
+  blog = {https://yashsmehta.com/plasticity-paper-website/},
+  code = {https://github.com/yashsmehta/MetaLearnPlasticity},
+  preview = {plastix},
+  selected = {true}
+}
+
+@misc{nern_2024_connectomedriven,
+  title = {Connectome-Driven Neural Inventory of a Complete Visual System},
+  author = {Nern, Aljoscha and Loesche, Frank and Takemura, Shin-ya and Burnett, Laura E. and Dreher, Marisa and Gruntman, Eyal and Hoeller, Judith and Huang, Gary B. and Januszewski, Micha{\l} and Klapoetke, Nathan C. and Koskela, Sanna and Longden, Kit D. and Lu, Zhiyuan and Preibisch, Stephan and Qiu, Wei and Rogers, Edward M. and Seenivasan, Pavithraa and Zhao, Arthur and Bogovic, John and Canino, Brandon S. and Clements, Jody and Cook, Michael and {Finley-May}, Samantha and Flynn, Miriam A. and Hameed, Imran and Fragniere, Alexandra MC and Hayworth, Kenneth J. and Hopkins, Gary Patrick and Hubbard, Philip M. and Katz, William T. and Kovalyak, Julie and Lauchie, Shirley A. and Leonard, Meghan and Lohff, Alanna and Maldonado, Charli A. and Mooney, Caroline and Okeoma, Nneoma and Olbris, Donald J. and Ordish, Christopher and Paterson, Tyler and Phillips, Emily M. and Pietzsch, Tobias and Salinas, Jennifer Rivas and Rivlin, Patricia K. and Schlegel, Philipp and Scott, Ashley L. and Scuderi, Louis A. and Takemura, Satoko and Talebi, Iris and Thomson, Alexander and Trautman, Eric T. and Umayam, Lowell and Walsh, Claire and Walsh, John J. and Xu, C. Shan and Yakal, Emily A. and Yang, Tansy and Zhao, Ting and Funke, Jan and George, Reed and Hess, Harald F. and Jefferis, Gregory SXE and Knecht, Christopher and Korff, Wyatt and Plaza, Stephen M. and Romani, Sandro and Saalfeld, Stephan and Scheffer, Louis K. and Berg, Stuart and Rubin, Gerald M. and Reiser, Michael B.},
+  year = {2024},
+  month = jun,
+  pages = {2024.04.16.589741},
+  publisher = {bioRxiv},
+  doi = {10.1101/2024.04.16.589741},
+  url = {https://www.biorxiv.org/content/10.1101/2024.04.16.589741v2},
+  abstract = {Vision provides animals with detailed information about their surroundings, conveying diverse features such as color, form, and movement across the visual scene. Computing these parallel spatial features requires a large and diverse network of neurons, such that in animals as distant as flies and humans, visual regions comprise half the brain's volume. These visual brain regions often reveal remarkable structure-function relationships, with neurons organized along spatial maps with shapes that directly relate to their roles in visual processing. To unravel the stunning diversity of a complex visual system, a careful mapping of the neural architecture matched to tools for targeted exploration of that circuitry is essential. Here, we report a new connectome of the right optic lobe from a male Drosophila central nervous system FIB-SEM volume and a comprehensive inventory of the fly's visual neurons. We developed a computational framework to quantify the anatomy of visual neurons, establishing a basis for interpreting how their shapes relate to spatial vision. By integrating this analysis with connectivity information, neurotransmitter identity, and expert curation, we classified the {$\sim$}53,000 neurons into 727 types, about half of which are systematically described and named for the first time. Finally, we share an extensive collection of split-GAL4 lines matched to our neuron type catalog. Together, this comprehensive set of tools and data unlock new possibilities for systematic investigations of vision in Drosophila, a foundation for a deeper understanding of sensory processing.},
+  chapter = {New Results}
+}
+
+@article{nguyen_2021_structured,
   title = {Structured Connectivity in the Cerebellum Enables Noise-Resilient Pattern Separation},
   author = {Nguyen, Tri M. and Thomas, Logan A. and Rhoades, Jeff L. and Ricchi, Ilaria and Yuan, Xintong Cindy and Sheridan, Arlo and Hildebrand, David G. C. and Funke, Jan and Regehr, Wade G. and Lee, Wei-Chung Allen},
   year = {2021},
   month = nov,
-  pages = {2021.11.29.470455},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2021.11.29.470455},
+  url = {https://www.biorxiv.org/content/10.1101/2021.11.29.470455v1},
   abstract = {The cerebellum is thought to detect and correct errors between intended and executed commands1--3 and is critical for social behaviors, cognition and emotion4--6. Computations for motor control must be performed quickly to correct errors in real time and should be sensitive to small differences between patterns for fine error correction while being resilient to noise7. Influential theories of cerebellar information processing have largely assumed random network connectivity, which increases the encoding capacity of the network's first layer8--13. However, maximizing encoding capacity reduces resiliency to noise7. To understand how neuronal circuits address this fundamental tradeoff, we mapped the feedforward connectivity in the mouse cerebellar cortex using automated large-scale transmission electron microscopy (EM) and convolutional neural network-based image segmentation. We found that both the input and output layers of the circuit exhibit redundant and selective connectivity motifs, which contrast with prevailing models. Numerical simulations suggest these redundant, non-random connectivity motifs increase discriminability of similar input patterns at a minimal cost to the network's overall encoding capacity. This work reveals how neuronal network structure can balance encoding capacity and redundancy, unveiling principles of biological network architecture with implications for artificial neural network design.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2021, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+  chapter = {New Results}
 }
 
-@article{plazaAnalyzingImageSegmentation2018,
+@article{nguyen_2023_structured,
+  title = {Structured Cerebellar Connectivity Supports Resilient Pattern Separation},
+  author = {Nguyen, Tri M. and Thomas, Logan A. and Rhoades, Jeff L. and Ricchi, Ilaria and Yuan, Xintong Cindy and Sheridan, Arlo and Hildebrand, David G. C. and Funke, Jan and Regehr, Wade G. and Lee, Wei-Chung Allen},
+  year = {2023},
+  month = jan,
+  journal = {Nature},
+  volume = {613},
+  number = {7944},
+  pages = {543--549},
+  publisher = {Nature Publishing Group},
+  issn = {1476-4687},
+  doi = {10.1038/s41586-022-05471-w},
+  url = {https://www.nature.com/articles/s41586-022-05471-w},
+  abstract = {The cerebellum is thought to help~detect and correct errors between intended and executed commands1,2 and is critical for social behaviours, cognition and emotion3--6. Computations for motor control must be performed quickly to correct errors in real time and should be sensitive to small differences between patterns for fine error correction while being resilient to noise7. Influential theories of cerebellar information processing have largely assumed random network connectivity, which increases the encoding capacity of the network's first layer8--13. However, maximizing encoding capacity reduces the resilience to noise7. To understand how neuronal circuits address this fundamental trade-off, we mapped the feedforward connectivity in the mouse cerebellar cortex using automated large-scale transmission electron microscopy and convolutional neural network-based image segmentation. We found that both the input and output layers of the circuit exhibit redundant and selective connectivity motifs, which contrast with prevailing models. Numerical simulations suggest that these redundant, non-random connectivity motifs increase the resilience to noise at a negligible cost to the overall encoding capacity. This work reveals how neuronal network structure can support a trade-off between encoding capacity and redundancy, unveiling principles of biological network architecture with implications for the design of artificial neural networks.}
+}
+
+@misc{patton_2024_dacapo,
+  title = {{{DaCapo}}: A Modular Deep Learning Framework for Scalable {{3D}} Image Segmentation},
+  shorttitle = {{{DaCapo}}},
+  author = {Patton, William and Rhoades, Jeff L. and Zouinkhi, Marwan and Ackerman, David G. and {Malin-Mayor}, Caroline and Adjavon, Diane and Heinrich, Larissa and Bennett, Davis and Zubov, Yurii and Team, CellMap Project and Weigel, Aubrey V. and Funke, Jan},
+  year = {2024},
+  month = aug,
+  number = {arXiv:2408.02834},
+  eprint = {2408.02834},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2408.02834},
+  url = {http://arxiv.org/abs/2408.02834},
+  abstract = {DaCapo is a specialized deep learning library tailored to expedite the training and application of existing machine learning approaches on large, near-isotropic image data. In this correspondence, we introduce DaCapo's unique features optimized for this specific domain, highlighting its modular structure, efficient experiment management tools, and scalable deployment capabilities. We discuss its potential to improve access to large-scale, isotropic image segmentation and invite the community to explore and contribute to this open-source initiative.}
+}
+
+@article{phelps_2021_reconstruction,
+  title = {Reconstruction of Motor Control Circuits in Adult {{Drosophila}} Using Automated Transmission Electron Microscopy},
+  author = {Phelps, Jasper S. and Hildebrand, David Grant Colburn and Graham, Brett J. and Kuan, Aaron T. and Thomas, Logan A. and Nguyen, Tri M. and Buhmann, Julia and Azevedo, Anthony W. and Sustar, Anne and Agrawal, Sweta and Liu, Mingguan and Shanny, Brendan L. and Funke, Jan and Tuthill, John C. and Lee, Wei-Chung Allen},
+  year = {2021},
+  month = feb,
+  journal = {Cell},
+  volume = {184},
+  number = {3},
+  pages = {759-774.e18},
+  publisher = {Elsevier},
+  issn = {0092-8674, 1097-4172},
+  doi = {10.1016/j.cell.2020.12.013},
+  url = {https://www.cell.com/cell/abstract/S0092-8674(20)31683-4},
+  pmid = {33400916}
+}
+
+@article{plaza_2018_analyzing,
   title = {Analyzing {{Image Segmentation}} for {{Connectomics}}},
   author = {Plaza, Stephen M. and Funke, Jan},
   year = {2018},
+  month = nov,
   journal = {Frontiers in Neural Circuits},
   volume = {12},
   issn = {1662-5110},
+  url = {https://www.frontiersin.org/article/10.3389/fncir.2018.00102},
   abstract = {Automatic image segmentation is critical to scale up electron microscope (EM) connectome reconstruction. To this end, segmentation competitions, such as CREMI and SNEMI, exist to help researchers evaluate segmentation algorithms with the goal of improving them. Because generating ground truth is time-consuming, these competitions often fail to capture the challenges in segmenting larger datasets required in connectomics. More generally, the common metrics for EM image segmentation do not emphasize impact on downstream analysis and are often not very useful for isolating problem areas in the segmentation. For example, they do not capture connectivity information and often over-rate the quality of a segmentation as we demonstrate later. To address these issues, we introduce a novel strategy to enable evaluation of segmentation at large scales both in a supervised setting, where ground truth is available, or an unsupervised setting. To achieve this, we first introduce new metrics more closely aligned with the use of segmentation in downstream analysis and reconstruction. In particular, these include synapse connectivity and completeness metrics that provide both meaningful and intuitive interpretations of segmentation quality as it relates to the preservation of neuron connectivity. Also, we propose measures of segmentation correctness and completeness with respect to the percentage of ``orphan'' fragments and the concentrations of self-loops formed by segmentation failures, which are helpful in analysis and can be computed without ground truth. The introduction of new metrics intended to be used for practical applications involving large datasets necessitates a scalable software ecosystem, which is a critical contribution of this paper. To this end, we introduce a scalable, flexible software framework that enables integration of several different metrics and provides mechanisms to evaluate and debug differences between segmentations. We also introduce visualization software to help users to consume the various metrics collected. We evaluate our framework on two relatively large public groundtruth datasets providing novel insights on example segmentations.}
 }
 
-@misc{sheridanLocalShapeDescriptors2021,
+@inproceedings{rhoades_2023_unpaired,
+  title = {Unpaired {{Image Enhancement}} for {{Neurite Segmentation}} in X-Ray {{Tomography}}},
+  booktitle = {2023 {{IEEE}} 20th {{International Symposium}} on {{Biomedical Imaging}} ({{ISBI}})},
+  author = {Rhoades, Jeff L. and Sheridan, Arlo and Narwani, Mukul and Reicher, Brian and Larson, Mark and Xie, Shuhan and Nguyen, Tri and Kuan, Aaron and Pacureanu, Alexandra and Lee, Wei-Chung Allen and Funke, Jan},
+  year = {2023},
+  month = apr,
+  pages = {1--5},
+  issn = {1945-8452},
+  doi = {10.1109/ISBI53787.2023.10230381},
+  url = {https://ieeexplore.ieee.org/abstract/document/10230381},
+  abstract = {As the field of connectomics strives to tackle questions regarding increasingly large neuronal circuits, technologies improving imaging throughput will be vital. X-Ray Holographic Nanotomography (XNH) may play a key role, by allowing for fast, non-destructive, multi-resolution imaging. XNH is well suited for rapidly imaging large tissue volumes, with throughput easily increased at the cost of resolution and image quality. We therefore set out to systematically examine the potential for cycle-consistent generative adversarial networks (CycleGANs) to facilitate high-quality segmentation from low-quality data. Additionally, we introduce the Split Cycle-GAN, a modification of the original formulation designed to prevent collaboration between generators that could result in hidden features in generated images. We find that our new formulation, as well as the original CycleGAN, both improve segmentation results over the naive case, allowing for an approximately 64-fold imaging speed up.}
+}
+
+@inproceedings{rumberger_2021_how,
+  title = {How {{Shift Equivariance Impacts Metric Learning}} for {{Instance Segmentation}}},
+  booktitle = {Proceedings of the {{IEEE}}/{{CVF International Conference}} on {{Computer Vision}}},
+  author = {Rumberger, Josef Lorenz and Yu, Xiaoyan and Hirsch, Peter and Dohmen, Melanie and Guarino, Vanessa Emanuela and Mokarian, Ashkan and Mais, Lisa and Funke, Jan and Kainm{\"u}ller, Dagmar},
+  year = {2021},
+  pages = {7128--7136},
+  url = {https://openaccess.thecvf.com/content/ICCV2021/html/Rumberger\_How\_Shift\_Equivariance\_Impacts\_Metric\_Learning\_for\_Instance\_Segmentation\_ICCV\_2021\_paper.html}
+}
+
+@misc{sheridan_2021_local,
   title = {Local {{Shape Descriptors}} for {{Neuron Segmentation}}},
   author = {Sheridan, Arlo and Nguyen, Tri and Deb, Diptodip and Lee, Wei-Chung Allen and Saalfeld, Stephan and Turaga, Srini and Manor, Uri and Funke, Jan},
   year = {2021},
   month = jan,
-  pages = {2021.01.18.427039},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2021.01.18.427039},
-  abstract = {We present a simple, yet effective, auxiliary learning task for the problem of neuron segmentation in electron microscopy volumes. The auxiliary task consists of the prediction of Local Shape Descriptors (LSDs), which we combine with conventional voxel-wise direct neighbor affinities for neuron boundary detection. The shape descriptors are designed to capture local statistics about the neuron to be segmented, such as diameter, elongation, and direction. On a large study comparing several existing methods across various specimen, imaging techniques, and resolutions, we find that auxiliary learning of LSDs consistently increases segmentation accuracy of affinity-based methods over a range of metrics. Furthermore, the addition of LSDs promotes affinitybased segmentation methods to be on par with the current state of the art for neuron segmentation (Flood-Filling Networks, FFN), while being two orders of magnitudes more efficient---a critical requirement for the processing of future petabyte-sized datasets. Implementations of the new auxiliary learning task, network architectures, training, prediction, and evaluation code, as well as the datasets used in this study are publicly available as a benchmark for future method contributions.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2021, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+  url = {https://www.biorxiv.org/content/10.1101/2021.01.18.427039v1},
+  abstract = {We present a simple, yet effective, auxiliary learning task for the problem of neuron segmentation in electron microscopy volumes. The auxiliary task consists of the prediction of Local Shape Descriptors (LSDs), which we combine with conventional voxel-wise direct neighbor affinities for neuron boundary detection. The shape descriptors are designed to capture local statistics about the neuron to be segmented, such as diameter, elongation, and direction. On a large study comparing several existing methods across various specimen, imaging techniques, and resolutions, we find that auxiliary learning of LSDs consistently increases segmentation accuracy of affinity-based methods over a range of metrics. Furthermore, the addition of LSDs promotes affinitybased segmentation methods to be on par with the current state of the art for neuron segmentation (Flood-Filling Networks, FFN), while being two orders of magnitudes more efficient---a critical requirement for the processing of future petabyte-sized datasets. Implementations of the new auxiliary learning task, network architectures, training, prediction, and evaluation code, as well as the datasets used in this study are publicly available as a benchmark for future method contributions.}
 }
 
-@misc{simonUltrastructuralReadoutVivo2021a,
+@article{sheridan_2023_local,
+  title = {Local Shape Descriptors for Neuron Segmentation},
+  author = {Sheridan, Arlo and Nguyen, Tri M. and Deb, Diptodip and Lee, Wei-Chung Allen and Saalfeld, Stephan and Turaga, Srinivas C. and Manor, Uri and Funke, Jan},
+  year = {2023},
+  month = feb,
+  journal = {Nature Methods},
+  volume = {20},
+  number = {2},
+  pages = {295--303},
+  publisher = {Nature Publishing Group},
+  issn = {1548-7105},
+  doi = {10.1038/s41592-022-01711-z},
+  url = {https://www.nature.com/articles/s41592-022-01711-z},
+  abstract = {We present an auxiliary learning task for the problem of neuron segmentation in electron microscopy volumes. The auxiliary task consists of the prediction of local shape descriptors (LSDs), which we combine with conventional voxel-wise direct neighbor affinities for neuron boundary detection. The shape descriptors capture local statistics about the neuron to be segmented, such as diameter, elongation, and direction. On a study comparing several existing methods across various specimen, imaging techniques, and resolutions, auxiliary learning of LSDs consistently increases segmentation accuracy of affinity-based methods over a range of metrics. Furthermore, the addition of LSDs promotes affinity-based segmentation methods to be on par with the current state of the art for neuron segmentation (flood-filling networks), while being two orders of magnitudes more efficient---a critical requirement for the processing of future petabyte-sized datasets.},
+  biorxiv = {10.1101/2021.01.18.427039v2},
+  code = {https://github.com/funkelab/lsd},
+  preview = {lsds},
+  selected = {true},
+  website = {https://localshapedescriptors.github.io/}
+}
+
+@article{shiu_2024_drosophila,
+  title = {A {{Drosophila}} Computational Brain Model Reveals Sensorimotor Processing},
+  author = {Shiu, Philip K. and Sterne, Gabriella R. and Spiller, Nico and Franconville, Romain and Sandoval, Andrea and Zhou, Joie and Simha, Neha and Kang, Chan Hyuk and Yu, Seongbong and Kim, Jinseop S. and Dorkenwald, Sven and Matsliah, Arie and Schlegel, Philipp and Yu, Szi-chieh and McKellar, Claire E. and Sterling, Amy and Costa, Marta and Eichler, Katharina and Bates, Alexander Shakeel and Eckstein, Nils and Funke, Jan and Jefferis, Gregory S. X. E. and Murthy, Mala and Bidaye, Salil S. and Hampel, Stefanie and Seeds, Andrew M. and Scott, Kristin},
+  year = {2024},
+  month = oct,
+  journal = {Nature},
+  volume = {634},
+  number = {8032},
+  pages = {210--219},
+  publisher = {Nature Publishing Group},
+  issn = {1476-4687},
+  doi = {10.1038/s41586-024-07763-9},
+  url = {https://www.nature.com/articles/s41586-024-07763-9},
+  abstract = {The recent assembly of the adult Drosophila melanogaster central brain connectome, containing more than 125,000 neurons and 50\,million synaptic connections, provides a template for examining sensory processing throughout the brain1,2. Here we create a leaky integrate-and-fire computational model of the entire Drosophila brain, on the basis of neural connectivity and neurotransmitter identity3, to study circuit properties of feeding and grooming behaviours. We show that activation of sugar-sensing or water-sensing gustatory neurons in the computational model accurately predicts neurons that respond to tastes and are required for feeding initiation4. In addition, using the model to activate neurons in the feeding region of the Drosophila brain predicts those that elicit motor neuron firing5---a testable hypothesis that we validate by optogenetic activation and behavioural studies. Activating different classes of gustatory neurons in the model makes accurate predictions of how several taste modalities interact, providing circuit-level insight into aversive and appetitive taste processing. Additionally, we applied this model to mechanosensory circuits and found that computational activation of mechanosensory neurons predicts activation of a small set of neurons comprising the antennal grooming circuit, and accurately describes the circuit response upon activation of different mechanosensory subtypes6--10. Our results demonstrate that modelling brain circuits using only synapse-level connectivity and predicted neurotransmitter identity generates experimentally testable hypotheses and can describe complete sensorimotor transformations.}
+}
+
+@misc{simon_2021_ultrastructural,
   title = {Ultrastructural Readout of in Vivo Synaptic Activity for Functional Connectomics},
   author = {Simon, Anna and Roth, Arnd and Sheridan, Arlo and Fi{\c s}ek, Mehmet and Marra, Vincenzo and Racca, Claudia and Funke, Jan and Staras, Kevin and H{\"a}usser, Michael},
   year = {2021},
   month = jul,
   pages = {2021.07.07.451278},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2021.07.07.451278},
+  url = {https://www.biorxiv.org/content/10.1101/2021.07.07.451278v1},
   abstract = {Large-volume ultrastructural mapping approaches yield detailed circuit wiring diagrams but lack an integrated synaptic activity readout which is essential for functional interpretation of the connectome. Here we resolve this limitation by combining functional synaptic labelling in vivo with focused ion-beam scanning electron microscopy (FIBSEM) and machine learning-based segmentation. Our approach generates high-resolution near-isotropic three-dimensional readouts of activated vesicle pools across large populations of individual synapses in a volume of tissue, opening the way for detailed functional connectomics studies. We apply this method to measure presynaptic activity in an ultrastructural context in synapses activated by sensory input in primary visual cortex in awake head-fixed mice, showing that the numbers of recycling and non-recycling vesicles approximate to a lognormal distribution across a large number of synapses. We also demonstrate that neighbouring boutons of the same axon, which share the same spiking activity, can differ greatly in their presynaptic release probability.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2021, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/}
+  chapter = {New Results}
 }
 
-@inproceedings{tschoppEfficientConvolutionalNeural2016,
+@misc{takemura_2023_connectome,
+  title = {A {{Connectome}} of the {{Male Drosophila Ventral Nerve Cord}}},
+  author = {Takemura, Shin-ya and Hayworth, Kenneth J. and Huang, Gary B. and Januszewski, Michal and Lu, Zhiyuan and Marin, Elizabeth C. and Preibisch, Stephan and Xu, C. Shan and Bogovic, John and Champion, Andrew S. and Cheong, Han SJ and Costa, Marta and Eichler, Katharina and Katz, William and Knecht, Christopher and Li, Feng and Morris, Billy J. and Ordish, Christopher and Rivlin, Patricia K. and Schlegel, Philipp and Shinomiya, Kazunori and St{\"u}rner, Tomke and Zhao, Ting and Badalamente, Griffin and Bailey, Dennis and Brooks, Paul and Canino, Brandon S. and Clements, Jody and Cook, Michael and Duclos, Octave and Dunne, Christopher R. and Fairbanks, Kelli and Fang, Siqi and {Finley-May}, Samantha and Francis, Audrey and George, Reed and Gkantia, Marina and Harrington, Kyle and Hopkins, Gary Patrick and Hsu, Joseph and Hubbard, Philip M. and Javier, Alexandre and Kainmueller, Dagmar and Korff, Wyatt and Kovalyak, Julie and Krzemi{\'n}ski, Dominik and Lauchie, Shirley A. and Lohff, Alanna and Maldonado, Charli and Manley, Emily A. and Mooney, Caroline and Neace, Erika and Nichols, Matthew and Ogundeyi, Omotara and Okeoma, Nneoma and Paterson, Tyler and Phillips, Elliott and Phillips, Emily M. and Ribeiro, Caitlin and Ryan, Sean M. and Rymer, Jon Thomson and Scott, Anne K. and Scott, Ashley L. and Shepherd, David and Shinomiya, Aya and Smith, Claire and Smith, Natalie and Suleiman, Alia and Takemura, Satoko and Talebi, Iris and Tamimi, Imaan FM and Trautman, Eric T. and Umayam, Lowell and Walsh, John J. and Yang, Tansy and Rubin, Gerald M. and Scheffer, Louis K. and Funke, Jan and Saalfeld, Stephan and Hess, Harald F. and Plaza, Stephen M. and Card, Gwyneth M. and Jefferis, Gregory SXE and Berg, Stuart},
+  year = {2023},
+  month = jun,
+  pages = {2023.06.05.543757},
+  publisher = {bioRxiv},
+  doi = {10.1101/2023.06.05.543757},
+  url = {https://www.biorxiv.org/content/10.1101/2023.06.05.543757v1},
+  abstract = {Animal behavior is principally expressed through neural control of muscles. Therefore understanding how the brain controls behavior requires mapping neuronal circuits all the way to motor neurons. We have previously established technology to collect large-volume electron microscopy data sets of neural tissue and fully reconstruct the morphology of the neurons and their chemical synaptic connections throughout the volume. Using these tools we generated a dense wiring diagram, or connectome, for a large portion of the Drosophila central brain. However, in most animals, including the fly, the majority of motor neurons are located outside the brain in a neural center closer to the body, i.e. the mammalian spinal cord or insect ventral nerve cord (VNC). In this paper, we extend our effort to map full neural circuits for behavior by generating a connectome of the VNC of a male fly.},
+  chapter = {New Results}
+}
+
+@inproceedings{tschopp_2016_efficient,
   title = {Efficient Convolutional Neural Networks for Pixelwise Classification on Heterogeneous Hardware Systems},
   booktitle = {2016 {{IEEE}} 13th {{International Symposium}} on {{Biomedical Imaging}} ({{ISBI}})},
   author = {Tschopp, Fabian and Martel, Julien N. P. and Turaga, Srinivas C. and Cook, Matthew and Funke, Jan},
@@ -378,10 +734,11 @@
   pages = {1225--1228},
   issn = {1945-8452},
   doi = {10.1109/ISBI.2016.7493487},
+  url = {https://ieeexplore.ieee.org/abstract/document/7493487},
   abstract = {With recent advances in high-throughput Electron Microscopy (EM) imaging it is now possible to image an entire nervous system of organisms like Drosophila melanogaster. One of the bottlenecks to reconstruct a connectome from these large volumes ({\oe} 100 TiB) is the pixel-wise prediction of membranes. The time it would typically take to process such a volume using a convolutional neural network (CNN) with a sliding window approach is in the order of years on a current GPU. With sliding windows, however, a lot of redundant computations are carried out. In this paper, we present an extension to the Caffe library to increase throughput by predicting many pixels at once. On a sliding window network successfully used for membrane classification, we show that our method achieves a speedup of up to 57{\texttimes}, maintaining identical prediction results.}
 }
 
-@inproceedings{vakhitovAccurateLinearTime2016,
+@inproceedings{vakhitov_2016_accurate,
   title = {Accurate and {{Linear Time Pose Estimation}} from {{Points}} and {{Lines}}},
   booktitle = {Computer {{Vision}} -- {{ECCV}} 2016},
   author = {Vakhitov, Alexander and Funke, Jan and {Moreno-Noguer}, Francesc},
@@ -396,27 +753,75 @@
   isbn = {978-3-319-46478-7}
 }
 
-@article{wolfInstanceSeparationEmerges2020,
+@inproceedings{wolf_2020_inpainting,
+  title = {Inpainting {{Networks Learn}} to {{Separate Cells}} in {{Microscopy Images}}.},
+  booktitle = {{{BMVC}}},
+  author = {Wolf, Steffen and Hamprecht, Fred A. and Funke, Jan and Janelia, {\relax HHMI} and Ashburn, V. A.},
+  year = {2020},
+  url = {http://129.206.117.249/sites/default/files/publications/files/852479027/wolf\_20\_inpainting-min.pdf}
+}
+
+@misc{wolf_2020_instance,
   title = {Instance {{Separation Emerges}} from {{Inpainting}}},
   author = {Wolf, Steffen and Hamprecht, Fred A. and Funke, Jan},
   year = {2020},
   month = feb,
-  journal = {arXiv:2003.00891 [cs, stat]},
+  number = {arXiv:2003.00891},
   eprint = {2003.00891},
-  primaryclass = {cs, stat},
-  abstract = {Deep neural networks trained to inpaint partially occluded images show a deep understanding of image composition and have even been shown to remove objects from images convincingly. In this work, we investigate how this implicit knowledge of image composition can be leveraged for fully self-supervised instance separation. We propose a measure for the independence of two image regions given a fully self-supervised inpainting network and separate objects by maximizing this independence. We evaluate our method on two microscopy image datasets and show that it reaches similar segmentation performance to fully supervised methods.},
-  archiveprefix = {arXiv}
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2003.00891},
+  url = {http://arxiv.org/abs/2003.00891},
+  abstract = {Deep neural networks trained to inpaint partially occluded images show a deep understanding of image composition and have even been shown to remove objects from images convincingly. In this work, we investigate how this implicit knowledge of image composition can be leveraged for fully self-supervised instance separation. We propose a measure for the independence of two image regions given a fully self-supervised inpainting network and separate objects by maximizing this independence. We evaluate our method on two microscopy image datasets and show that it reaches similar segmentation performance to fully supervised methods.}
 }
 
-@misc{yamadaHierarchicalArchitectureDopaminergic2022,
+@inproceedings{wolf_2023_unsupervised,
+  title = {Unsupervised {{Learning}} of {{Object-Centric Embeddings}} for {{Cell Instance Segmentation}} in {{Microscopy Images}}},
+  booktitle = {Proceedings of the {{IEEE}}/{{CVF International Conference}} on {{Computer Vision}}},
+  author = {Wolf, Steffen and Lalit, Manan and McDole, Katie and Funke, Jan},
+  year = {2023},
+  pages = {21263--21272},
+  url = {https://openaccess.thecvf.com/content/ICCV2023/html/Wolf\_Unsupervised\_Learning\_of\_Object-Centric\_Embeddings\_for\_Cell\_Instance\_Segmentation\_in\_ICCV\_2023\_paper.html}
+}
+
+@article{yamada_2022_hierarchical,
   title = {Hierarchical Architecture of Dopaminergic Circuits Enables Second-Order Conditioning in {{Drosophila}}},
   author = {Yamada, Daichi and Bushey, Daniel and Feng, Li and Hibbard, Karen and Sammons, Megan and Funke, Jan and {Litwin-Kumar}, Ashok and Hige, Toshihide and Aso, Yoshinori},
   year = {2022},
   month = apr,
-  pages = {2022.03.30.486484},
-  institution = {bioRxiv},
+  publisher = {bioRxiv},
   doi = {10.1101/2022.03.30.486484},
+  url = {https://www.biorxiv.org/content/10.1101/2022.03.30.486484v2},
   abstract = {Dopaminergic neurons with distinct projection patterns and physiological properties compose memory subsystems in a brain. However, it is poorly understood whether or how they interact during complex learning. Here, we identify a feedforward circuit formed between dopamine subsystems and show that it is essential for second-order conditioning, an ethologically important form of higher-order associative learning. The Drosophila mushroom body comprises a series of dopaminergic compartments, each of which exhibits distinct memory dynamics. We find that a slow and stable memory compartment can serve as an effective ``teacher'' by instructing other faster and transient memory compartments via a single key interneuron, which we identify by connectome analysis and neurotransmitter prediction. This excitatory interneuron acquires enhanced response to reward-predicting odor after first-order conditioning and, upon activation, evokes dopamine release in the ``student'' compartments. These hierarchical connections between dopamine subsystems explain distinct properties of first- and second-order memory long known by behavioral psychologists.},
-  chapter = {New Results},
-  copyright = {{\copyright} 2022, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/}
+  chapter = {New Results}
+}
+
+@article{yamada_2023_hierarchical,
+  title = {Hierarchical Architecture of Dopaminergic Circuits Enables Second-Order Conditioning in {{Drosophila}}},
+  author = {Yamada, Daichi and Bushey, Daniel and Li, Feng and Hibbard, Karen L and Sammons, Megan and Funke, Jan and {Litwin-Kumar}, Ashok and Hige, Toshihide and Aso, Yoshinori},
+  editor = {Grunwald Kadow, Ilona C and VijayRaghavan, K},
+  year = {2023},
+  month = jan,
+  journal = {eLife},
+  volume = {12},
+  pages = {e79042},
+  publisher = {eLife Sciences Publications, Ltd},
+  issn = {2050-084X},
+  doi = {10.7554/eLife.79042},
+  url = {https://doi.org/10.7554/eLife.79042},
+  abstract = {Dopaminergic neurons with distinct projection patterns and physiological properties compose memory subsystems in a brain. However, it is poorly understood whether or how they interact during complex learning. Here, we identify a feedforward circuit formed between dopamine subsystems and show that it is essential for second-order conditioning, an ethologically important form of higher-order associative learning. The Drosophila mushroom body comprises a series of dopaminergic compartments, each of which exhibits distinct memory dynamics. We find that a slow and stable memory compartment can serve as an effective `teacher' by instructing other faster and transient memory compartments via a single key interneuron, which we identify by connectome analysis and neurotransmitter prediction. This excitatory interneuron acquires enhanced response to reward-predicting odor after first-order conditioning and, upon activation, evokes dopamine release in the `student' compartments. These hierarchical connections between dopamine subsystems explain distinct properties of first- and second-order memory long known by behavioral psychologists.}
+}
+
+@article{zhu_2022_transverse,
+  title = {Transverse Endoplasmic Reticulum Expansion in Hereditary Spastic Paraplegia Corticospinal Axons},
+  author = {Zhu, Peng-Peng and Hung, Hui-Fang and Batchenkova, Natalia and {Nixon-Abell}, Jonathon and Henderson, James and Zheng, Pengli and Renvois{\'e}, Benoit and Pang, Song and Xu, C Shan and Saalfeld, Stephan and Funke, Jan and Xie, Yuxiang and Svara, Fabian and Hess, Harald F and Blackstone, Craig},
+  year = {2022},
+  month = aug,
+  journal = {Human Molecular Genetics},
+  volume = {31},
+  number = {16},
+  pages = {2779--2795},
+  issn = {0964-6906},
+  doi = {10.1093/hmg/ddac072},
+  url = {https://doi.org/10.1093/hmg/ddac072},
+  abstract = {Hereditary spastic paraplegias (HSPs) comprise a large group of inherited neurologic disorders affecting the longest corticospinal axons (SPG1--86 plus others), with shared manifestations of lower extremity spasticity and gait impairment. Common autosomal dominant HSPs are caused by mutations in genes encoding the microtubule-severing ATPase spastin (SPAST; SPG4), the membrane-bound GTPase atlastin-1 (ATL1; SPG3A) and the reticulon-like, microtubule-binding protein REEP1 (REEP1; SPG31). These proteins bind one another and function in shaping the tubular endoplasmic reticulum (ER) network. Typically, mouse models of HSPs have mild, later onset phenotypes, possibly reflecting far shorter lengths of their corticospinal axons relative to humans. Here, we have generated a robust, double mutant mouse model of HSP in which atlastin-1 is genetically modified with a K80A knock-in (KI) missense change that abolishes its GTPase activity, whereas its binding partner Reep1 is knocked out. Atl1KI/KI/Reep1-/- mice exhibit early onset and rapidly progressive declines in several motor function tests. Also, ER in mutant corticospinal axons dramatically expands transversely and periodically in a mutation dosage-dependent manner to create a ladder-like appearance, on the basis of reconstructions of focused ion beam-scanning electron microscopy datasets using machine learning-based auto-segmentation. In lockstep with changes in ER morphology, axonal mitochondria are fragmented and proportions of hypophosphorylated neurofilament H and M subunits are dramatically increased in Atl1KI/KI/Reep1-/- spinal cord. Co-occurrence of these findings links ER morphology changes to alterations in mitochondrial morphology and cytoskeletal organization. Atl1KI/KI/Reep1-/- mice represent an early onset rodent HSP model with robust behavioral and cellular readouts for testing novel therapies.}
 }
