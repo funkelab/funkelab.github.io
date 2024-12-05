@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="people">
+  {% for status in page.person_status %}
+    <a id="{{ status.id }}" href=".#{{ status.id }}">
+      <h2 class="status">{{ status.text }}</h2>
+    </a>
+    {% assign filtered_people = page.people | where: "status", status.id %}
+    {% assign sorted_people = filtered_people | sort: "date_joined" | sort: "priority", "last" %}
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for person in sorted_people %}
+        {% include person.liquid %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

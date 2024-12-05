@@ -201,11 +201,10 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
 
     p {
-      display: inline-block;
       margin: 0;
+      color: var(--global-highlight-color);
     }
   }
 }
@@ -613,6 +612,57 @@ footer.sticky-bottom {
   a:hover {
     border-bottom-color: var(--global-theme-color);
     text-decoration: none;
+  }
+}
+
+// People
+
+.people {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    outline-style: none;
+    outline-color: var(--global-highlight-color);
+    background-color: var(--global-card-bg-color);
+    text-align: center;
+    img {
+      width: 66%;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem;
+    }
+
+    .card-body {
+      padding: 0;
+    }
+
+    .card-text {
+      margin-bottom: 0;
+    }
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  h2.status {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
   }
 }
 

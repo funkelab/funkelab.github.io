@@ -1,0 +1,29 @@
+<div class="col">
+  {% if person.website %}
+  <a href="{{ person.website }}">
+  {% endif %}
+    <div class="card hoverable">
+      {% if person.image %}
+        {% assign person_image_path = person.image | prepend: 'assets/img/' %}
+        {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+        {% include figure.liquid loading="eager" path=person_image_path class='img-fluid z-depth-1 rounded-circle' sizes=sizes alt=person.image %}
+      {% endif %}
+      <h3 class="card-title">{{ person.name }}</h3>
+      <p class="card-text">{{ person.title}}</p>
+      {% if person.content %}
+      <div class="card-body">
+        <div class="row ml-1 mr-1 p-0">
+            {% capture person_content %}{% include_relative {{ person.content }} %}{% endcapture %}
+            {{ person_content | markdownify }}
+        </div>
+      </div>
+      {% endif %}
+      <div class="social">
+        {% assign site = person %}
+        {% include social.liquid %}
+      </div>
+    </div>
+  {% if person.website %}
+  </a>
+  {% endif %}
+</div>
