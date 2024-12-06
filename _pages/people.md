@@ -11,8 +11,6 @@ person_status:
     text: Current Lab Members
   - id: alumni
     text: Alumni
-  - id: visitor
-    text: Visiting Scientists
 
 people:
 
@@ -63,11 +61,18 @@ people:
 
   # Alumni
 
+  - name: Alex Hillsley
+    title: Postdoctoral Researcher
+    image: people/alex.jpg
+    status: alumni
+    date_joined: 2022-04-04
+    date_left: 2024-08-14
   - name: Alicia Lu
     title: Janelia Undergraduate Scholar
     image: people/alicia.jpg
     status: alumni
     date_joined: 2021-06-01
+    date_left: 2022-08-19
   - name: Benjamin Gallusser
     title: Master Student
     image: people/ben.jpg
@@ -78,7 +83,7 @@ people:
     title: Highschool Intern
     image: people/esha.jpg
     email: eshakarlekar@berkeley.edu
-    github_username: https://github.com/ekarlekar
+    github_username: ekarlekar
     website: https://esha.karlekar.com/
     status: alumni
     date_joined: 2022-03-14
@@ -101,6 +106,19 @@ people:
     status: alumni
     date_joined: 2018-06-01
     date_left: 2022-10-31
+  - name: Scott Lauritzen
+    title: Research Specialist
+    image: people/scott.jpg
+    status: alumni
+    date_joined: 2018-09-02
+    date_left: 2020-02-29
+  - name: Will Patton
+    title: Software Engineer
+    image: people/will.jpg
+    github_username: pattonw
+    status: alumni
+    date_joined: 2019-12-10
+    date_left: 2023-03-29
   - name: Yash Mehta
     title: Software Engineer
     image: people/yash.png
@@ -114,7 +132,13 @@ people:
   - name: Jeff Rhoades
     title: Visiting Scientist
     image: people/jeff.jpg
-    status: visitor
+    status: alumni
     date_joined: 2022-03-01
     date_left: 2023-04-14
+  - name: Steffen Wolf
+    title: Visiting Scientist
+    image: people/steffen.jpg
+    status: alumni
+    date_joined: 2019-09-01
+    date_left: 2023-06-15
 ---
