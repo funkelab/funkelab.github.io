@@ -50,6 +50,16 @@ d-article {
   }
   blockquote {
     border-left: 2px solid var(--global-theme-color) !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  p {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   // Style taken from code blocks
@@ -66,7 +76,7 @@ d-article {
     overflow: auto;
     max-width: 100%;
     summary {
-      color: var(--global-theme-color);
+      color: var(--global-highlight-color);
     }
     p {
       margin-top: 0.5rem;
