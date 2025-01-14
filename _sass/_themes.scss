@@ -4,7 +4,7 @@
 
 :root {
   --global-bg-color: #{$funkey_dark};
-  --global-code-bg-color: #{$funkey_grey};
+  --global-code-bg-color: #{$funkey_darkgrey};
   --global-text-color: #{$funkey_bright};
   --global-text-color-light: #{$funkey_lightgrey};
   --global-theme-color: #{$funkey_color_1};
@@ -22,11 +22,11 @@
   --global-back-to-top-text-color: #{$funkey_bright};
 
   --global-tip-block: #42b983;
-  --global-tip-block-bg: #{$funkey_grey};
+  --global-tip-block-bg: #{$funkey_darkgrey};
   --global-tip-block-text: #{$funkey_bright};
   --global-tip-block-title: #359469;
   --global-warning-block: #{$funkey_color_2};
-  --global-warning-block-bg: #{$funkey_grey};
+  --global-warning-block-bg: #{$funkey_darkgrey};
   --global-warning-block-text: #{$funkey_bright};
   --global-warning-block-title: #{$funkey_bright};
   --global-danger-block: #c00;
