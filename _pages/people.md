@@ -81,7 +81,7 @@ people:
     date_joined: 2020-04-01
     date_left: 2021-04-05
   - name: Esha Karlekar
-    title: Highschool Intern
+    title: High School Intern
     image: people/esha.jpg
     email: eshakarlekar@berkeley.edu
     github_username: ekarlekar
@@ -96,7 +96,7 @@ people:
     date_joined: 2018-09-23
     date_left: 2021-08-31
   - name: Michelle Du
-    title: Highschool Intern
+    title: High School Intern
     image: people/michelle.jpg
     status: alumni
     date_joined: 2019-06-14
