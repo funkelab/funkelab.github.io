@@ -70,6 +70,7 @@ people:
   - name: Alicia Lu
     title: Janelia Undergraduate Scholar
     image: people/alicia.jpg
+    website: https://aletheia88.github.io/
     status: alumni
     date_joined: 2021-06-01
     date_left: 2022-08-19
