@@ -53,9 +53,12 @@ people:
     date_joined: 2023-10-01
   - name: Morgan Schwartz
     title: Machine Learning Researcher
-    image: people/morgan.jpg
+    image: people/morgan.jpeg
     email: schwartzm10@janelia.hhmi.org
     website: https://msschwartz21.github.io/
+    orcid_id: 0000-0001-8131-9125
+    scholar_userid: dLl7P3kAAAAJ
+    github_username: msschwartz21
     status: member
     date_joined: 2024-11-01
 
