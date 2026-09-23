@@ -26,41 +26,39 @@ people:
     status: member
     date_joined: 2018-06-01
     priority: 1
+  # Alumni
   - name: Jordan Lohmeyer
     title: Lab Manager
     image: people/jordan.jpg
     email: lohmeyerj@janelia.hhmi.org
-    status: member
+    status: alumni
     date_joined: 2024-06-01
     priority: 2
   - name: Diane Adjavon
     title: Machine Learning Researcher
     image: people/diane.jpg
     email: adjavond@janelia.hhmi.org
-    status: member
+    status: alumni
     date_joined: 2021-12-01
   - name: Manan Lalit
     title: Machine Learning Researcher
     image: people/manan.jpg
     email: lalitm@janelia.hhmi.org
-    status: member
+    status: alumni
     date_joined: 2022-03-01
   - name: Caroline Malin-Mayor
     title: Machine Learning Researcher
     image: people/caroline.jpg
     email: malinmayorc@janelia.hhmi.org
-    status: member
+    status: alumni
     date_joined: 2023-10-01
   - name: Morgan Schwartz
     title: Machine Learning Researcher
     image: people/morgan.jpg
     email: schwartzm10@janelia.hhmi.org
     website: https://msschwartz21.github.io/
-    status: member
+    status: alumni
     date_joined: 2024-11-01
-
-  # Alumni
-
   - name: Alex Hillsley
     title: Postdoctoral Researcher
     image: people/alex.jpg
