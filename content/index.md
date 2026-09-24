@@ -2,9 +2,9 @@
 title: Funke Lab
 ---
 
-Our lab at <a href="https://janelia.org">HHMI Janelia</a> develops machine
-learning methods for the life sciences, with a focus on microscopy image
-analysis.
+Our lab at the <a href="https://humantechnopole.it">Human Technopole</a>
+develops machine learning methods for the life sciences, with a focus on
+microscopy image analysis.
 
 We are particularly interested in:
 
