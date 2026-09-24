@@ -1,0 +1,7 @@
+{% if page.date is defined %}<p>{{ page.date }}</p>{% endif %}
+{% if page.description is defined %}<p class="muted">{{ page.description }}</p>{% endif %}
+{% if page.image is defined %}<img src="{{ page.image }}" alt="{{ page.title }} overview">{% endif %}
+{{ page.body }}
+{% if page.references %}
+{% with papers=page.references, heading='References' %}{% include 'publications.html' %}{% endwith %}
+{% endif %}

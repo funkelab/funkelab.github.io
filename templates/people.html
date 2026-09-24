@@ -1,0 +1,13 @@
+{% for status, label in [('member', 'Current Lab Members'), ('alumni', 'Alumni')] %}
+<h2 id="{{ status }}">{{ label }}</h2>
+<div class="grid">
+{% for person in people if person.status == status %}
+  <article class="person">
+    {% if person.image is defined %}<img src="{{ person.image }}" alt="{{ person.name}}" loading="lazy">{% endif %}
+    <h3>{{ person.name}}</h3>
+    {% if person.role is defined %}<p>{{ person.role }}</p>{% endif %}
+    {{ person.body }}
+  </article>
+{% endfor %}
+</div>
+{% endfor %}

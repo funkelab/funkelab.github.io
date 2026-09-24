@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}{% if title != 'Funke Lab' %} · Funke Lab{% endif %}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="/">Funke Lab</a>
+    <nav aria-label="Main navigation">
+      {% for href, label in [('/', 'Overview'), ('/people/', 'People'), ('/publications/', 'Publications'), ('/projects/', 'Projects'), ('/blog/', 'Blog')] %}
+      <a href="{{ href }}"{% if url == href %} aria-current="page"{% endif %}>{{ label }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  <main>
+    <h1>{{ title }}</h1>
+    {{ body }}
+  </main>
+  <footer>Funke Lab · <a href="https://www.janelia.org/">HHMI Janelia</a> · <a href="https://github.com/funkelab">GitHub</a></footer>
+</body>
+</html>

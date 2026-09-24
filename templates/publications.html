@@ -1,0 +1,18 @@
+{% if heading %}<h2>{{ heading }}</h2>{% endif %}
+{% for paper in papers %}
+{% if not heading and (loop.first or paper.year != loop.previtem.year) %}<h2 class="publication_year">{{ paper.year }}</h2>{% endif %}
+<div class="publication">
+  <div class="teaser">
+    {% if paper.preview %}
+    <img src="/assets/img/teasers/{{ paper.preview }}.png" alt="{{ paper.preview }}" loading="lazy">
+    {% endif %}
+  </div>
+  <article class="pubdata" id="{{ paper.key }}">
+    <h3>{{ paper.title }}</h3>
+    <p>{{ paper.authors }}</p>
+    <p class="muted">{{ paper.venue }}{% if paper.venue %} · {% endif %}{{ paper.year }}</p>
+    <p>{% for label, href in paper.links %}<a href="{{ href }}">{{ label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+    {% if paper.abstract %}<details><summary>Abstract</summary><p>{{ paper.abstract }}</p></details>{% endif %}
+  </article>
+</div>
+{% endfor %}
