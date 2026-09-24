@@ -5,7 +5,7 @@ image: /assets/img/teasers/blinx.png
 order: 4
 ---
 
-[@hillsley_2024_bayesian]
+[@hillsley_2025_bayesian]
 
 We address the problem of inferring the number of independently blinking
 fluorescent light emitters, when only their combined intensity contributions
