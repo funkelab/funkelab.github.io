@@ -10,7 +10,7 @@
   <header>
     <a class="brand" href="/">Funke Lab</a>
     <nav aria-label="Main navigation">
-      {% for href, label in [('/', 'Overview'), ('/people/', 'People'), ('/publications/', 'Publications'), ('/projects/', 'Projects'), ('/blog/', 'Blog')] %}
+      {% for href, label in [('/people/', 'People'), ('/publications/', 'Publications'), ('/projects/', 'Projects'), ('/blog/', 'Blog')] %}
       <a href="{{ href }}"{% if url == href %} aria-current="page"{% endif %}>{{ label }}</a>
       {% endfor %}
     </nav>
