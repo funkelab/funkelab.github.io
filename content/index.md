@@ -1,5 +1,5 @@
 ---
-title: Funke Lab
+title: Overview
 ---
 
 Our lab at the <a href="https://humantechnopole.it">Human Technopole</a>

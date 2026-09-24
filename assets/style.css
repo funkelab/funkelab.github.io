@@ -1,22 +1,60 @@
 :root {
-    color-scheme: light dark;
-    font: 17px/1.65 system-ui, sans-serif;
-    --color-dark: #130006;
-    --color-bright: #fff;
+    --color-fg: #130006;
+    --color-bg: #eeeeee;
     --theme-color-1: #c472ea;
     --theme-color-2: #f2a431;
     --theme-color-3: #55b849;
-    color: light-dark(var(--color-dark), var(--color-bright));
-    background: light-dark(var(--color-bright), var(--color-dark));
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-fg: #dddddd;
+        --color-bg: #130006;
+        --theme-color-1: #c472ea;
+        --theme-color-2: #f2a431;
+        --theme-color-3: #55b849;
+    }
 }
 * { box-sizing: border-box; }
-body { max-width: 960px; margin: auto; padding: 0 24px; }
-a { color: var(--theme-color-1); text-underline-offset: .2em; }
-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 24px 0; border-bottom: 1px solid #ddd; }
-.brand { font-size: 1.4rem; font-weight: 700; text-decoration: none; }
-nav { display: flex; flex-wrap: wrap; gap: 16px; }
-nav [aria-current] { font-weight: 700; }
-main { min-height: 65vh; padding: 24px 0; overflow-wrap: anywhere; }
+body {
+    max-width: 960px;
+    margin: auto;
+    padding: 57px 24px;
+    font-family: "Montserrat",sans-serif;
+    color: var(--color-fg);
+    background: var(--color-bg);
+}
+a { color: var(--theme-color-1); text-decoration: none; }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px;
+    border-bottom: 1px solid var(--theme-color-2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: var(--color-bg);
+    opacity: 0.95;
+}
+.logo { max-height: 57px; }
+.lab_name {
+    font-size: 2rem;
+    margin: auto;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+main {
+    margin-top: 3rem !important;
+    min-height: 65vh;
+    padding: 24px 0;
+    overflow-wrap: anywhere;
+}
 h1, h2, h3 { line-height: 1.25; }
 h1 { font-size: 2rem; }
 h2 { margin-top: 2rem; font-size: 1.45rem; }

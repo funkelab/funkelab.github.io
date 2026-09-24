@@ -8,7 +8,8 @@
 </head>
 <body>
   <header>
-    <a class="brand" href="/">Funke Lab</a>
+    <a href="/"><img class="logo" src="/assets/img/logo.png" alt="Funke Lab"/></a>
+    <p class="lab_name">Funke Lab</p>
     <nav aria-label="Main navigation">
       {% for href, label in [('/people/', 'People'), ('/publications/', 'Publications'), ('/projects/', 'Projects'), ('/blog/', 'Blog')] %}
       <a href="{{ href }}"{% if url == href %} aria-current="page"{% endif %}>{{ label }}</a>
