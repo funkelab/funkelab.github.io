@@ -61,5 +61,5 @@ list on the home page.
 
 ## Deployment
 
-GitHub Actions will build and deploy the static HTML whenever on every upstream
-push to `main`.
+GitHub Actions will build and deploy the static HTML on every upstream push to
+`main`.
