@@ -137,6 +137,26 @@ footer {
     margin: .4rem 0 0 0;
     text-align: center;
 }
+.person_links {
+    display: flex;
+    justify-content: center;
+    gap: .125rem;
+    margin: 0;
+}
+.person_links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+.person_links svg {
+    width: 1em;
+    height: 1em;
+}
+.person_text {
+    text-align: center;
+}
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));

@@ -40,13 +40,20 @@ status: member
 image: /assets/img/people/jan.jpg
 joined: 2018-06-01
 order: 1
+links:
+  email: jan.funke@fht.org
+  scholar: https://scholar.google.com/citations?user=7rqAapgAAAAJ
+  orcid: https://orcid.org/0000-0003-4388-7783
+  bluesky: https://bsky.app/profile/janfunkey.bsky.social
+  github: https://github.com/funkelab
+  website: https://funkelab.github.io/
 ---
 
-[Email](mailto:funkej@janelia.hhmi.org)
+Optional text goes here.
 ```
 
-`name` and `status` is required (`member` or `alumni`).
-The body can contain a bio and ordinary Markdown links.
+`name` and `status` is required (`member` or `alumni`). The optional `links`
+mapping is available as `person.links` in the template.
 
 ### Blog Articles
 
@@ -63,3 +70,13 @@ list on the home page.
 
 GitHub Actions will build and deploy the static HTML on every upstream push to
 `main`.
+
+## Acknowledgements
+
+Icons in `templates/icons/` are from [Font Awesome Free
+6.7.2](https://github.com/FortAwesome/Font-Awesome/tree/6.7.2), by Fonticons,
+Inc., licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+The Google Scholar SVG is from [Academicons by James
+Walsh](https://github.com/jpswalsh/academicons/blob/master/svg/google-scholar.svg),
+licensed under [SIL OFL 1.1](https://openfontlicense.org/).

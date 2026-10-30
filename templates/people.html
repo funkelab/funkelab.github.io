@@ -6,7 +6,18 @@
     {% if person.image is defined %}<img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy">{% endif %}
     <h3 class="name">{{ person.name }}</h3>
     {% if person.role is defined %}<p class="role">{{ person.role }}</p>{% endif %}
-    {{ person.body }}
+    {% if person.links is defined and person.links %}
+    <div class="person_links">
+      {% for key, label in [('email', 'Email'), ('scholar', 'Google Scholar'), ('github', 'GitHub'), ('orcid', 'ORCID'), ('bluesky', 'Bluesky'), ('website', 'Website')] %}
+      {% if person.links.get(key) %}
+      <a href="{{ 'mailto:' ~ person.links[key] if key == 'email' else person.links[key] }}" aria-label="{{ person.name }} — {{ label }}" title="{{ label }}">{% include 'icons/' ~ key ~ '.svg' %}</a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    <div class="person_text">
+      {{ person.body }}
+    </div>
   </figure>
 {% endfor %}
 </div>
