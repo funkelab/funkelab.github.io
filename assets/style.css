@@ -150,7 +150,7 @@ footer {
     width: 1.75rem;
     height: 1.75rem;
 }
-.person_links svg {
+.person_links svg, footer svg {
     width: 1em;
     height: 1em;
 }
@@ -228,4 +228,8 @@ blockquote {
     main {
         padding: 24px 12px;
     }
+}
+
+footer svg {
+    vertical-align: -.125em;
 }
