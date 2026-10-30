@@ -10,7 +10,7 @@ links:
   bluesky: "https://bsky.app/profile/aliciakylu.bsky.social"
   orcid: "https://orcid.org/0000-0002-3039-2602"
   scholar: "https://scholar.google.com/citations?user=-zD0UpIAAAAJ"
-
+  website: "https://aliciakylu.substack.com/"
 ---
 
 Co-supervised with [Earl Miller](https://ekmillerlab.mit.edu/earl-miller/).
