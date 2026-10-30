@@ -9,9 +9,13 @@
   </div>
   <article class="pubdata" id="{{ paper.key }}">
     <h3>{{ paper.title }}</h3>
-    <p>{{ paper.authors }}</p>
+    <p class="authors">{{ paper.authors }}</p>
     <p class="muted">{{ paper.venue }}{% if paper.venue %} · {% endif %}{{ paper.year }}</p>
-    <p>{% for label, href in paper.links %}<a href="{{ href }}">{{ label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+    <p>
+      {% for label, href in paper.links %}
+      <a class="publink" href="{{ href }}">{{ label }}</a>
+      {% endfor %}
+    </p>
     {% if paper.abstract %}<details><summary>Abstract</summary><p>{{ paper.abstract }}</p></details>{% endif %}
   </article>
 </div>
