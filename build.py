@@ -148,8 +148,15 @@ def build():
     projects = []
     people = []
     posts = []
-    for path in sorted((ROOT / "content").rglob("*.md")):
-        data = read_content(path, papers)
+    content = [
+        (path, read_content(path, papers))
+        for path in sorted((ROOT / "content").rglob("*.md"))
+    ]
+    authors = {
+        path.stem: data for path, data in content
+        if path.parent == ROOT / "content/people"
+    }
+    for path, data in content:
         relative = path.relative_to(ROOT / "content").with_suffix("").as_posix()
         if relative.startswith("people/"):
             if data.get("status") not in {"member", "alumni"}:
@@ -167,6 +174,10 @@ def build():
         if relative.startswith("projects/"):
             projects.append(data)
         if relative.startswith("blog/"):
+            author = data.get("author")
+            if not isinstance(author, str) or author not in authors:
+                raise ValueError(f"{path}: author must name a file in content/people (without .md)")
+            data["author"] = authors[author]
             posts.append(data)
         body = section("page.html", page=data)
         if relative == "index":

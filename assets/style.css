@@ -113,6 +113,18 @@ footer {
 .authors {
     font-size: 0.8rem;
 }
+.post-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.post-author img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 .muted {
     color: var(--theme-color-2);
 }

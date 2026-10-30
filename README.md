@@ -59,6 +59,9 @@ mapping is available as `person.links` in the template.
 
 Markdown files in `content/blog/<year>/`.
 
+Each post requires an `author` matching a filename in `content/people/`,
+without the `.md` extension.
+
 ## Publications
 
 Publications are read from the top-level `papers.bib`.
