@@ -236,6 +236,18 @@ blockquote {
     main {
         padding: 24px 12px;
     }
+    .publication {
+        flex-direction: column;
+    }
+    .teaser {
+        flex: none;
+        max-width: 100%;
+        padding: 15px 0 0;
+    }
+    .teaser img {
+        width: 100%;
+        max-width: 24rem;
+    }
 }
 
 footer svg {
