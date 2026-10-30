@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://funkelab.github.io/sitemap.xml
